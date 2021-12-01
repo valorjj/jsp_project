@@ -22,6 +22,7 @@
 ## 참고 사이트 :
 [공공기관데이터](https://www.data.go.kr/index.do)  
 [빗썸](https://www.bithumb.com/)   
+[빗썸API](https://apidocs.bithumb.com/docs/api_info)   
 [마크다운 문법](https://gist.github.com/ihoneymon/652be052a0727ad59601)   
 [부트스트랩 공식문서](https://getbootstrap.com/docs/5.1/getting-started/introduction/)   
 [깃 공식문서](https://git-scm.com/book/ko/v2)   
@@ -34,7 +35,12 @@
 [네이버 API(개발자 페이지)](https://developers.naver.com/main/)   
 [카카오 API(개발자 페이지)](https://developers.kakao.com/product)   
 
+[파이썬으로 구현한 코인 페이지 예제](https://velog.io/@wltjs10645/wecode-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EC%9D%B8%EC%9B%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EA%B1%B0%EB%9E%98%EC%86%8C-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9)   
+
 [API 키 발급부터 상세 설명](https://jeong-pro.tistory.com/143)   
+
+[빗썸 API 자바 활용 (간단1)](https://steemit.com/kr/@coindori/public-api)   
+[빗썸 API 자바 활용 (간단2)](https://hive.blog/kr-dev/@nhj12311/6gy5ct)  
 
 API 사용법 설명 포스트 모음 
   - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
