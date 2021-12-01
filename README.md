@@ -28,9 +28,19 @@
 [mysql 문법](http://tcpschool.com/mysql/mysql_basic_syntax)   
 [jsp 구동원리](https://atoz-develop.tistory.com/entry/JSP-%EA%B5%AC%EB%8F%99-%EC%9B%90%EB%A6%AC?category=796489)   
 [jsp 문법](https://atoz-develop.tistory.com/entry/JSP-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-%EC%B4%9D-%EC%A0%95%EB%A6%AC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%8D%B0%EC%9D%B4%ED%84%B0-JSP-%EC%A0%84%EC%9A%A9-%ED%83%9C%EA%B7%B8-%EB%82%B4%EC%9E%A5-%EA%B0%9D%EC%B2%B4)   
+[Notion 사용법](https://www.notion.so/Notion-Tutorial-X-ABONEU-3cee21ebb7a4404cbf31a2e8cc98d5b9)   
+[font awesome](https://fontawesome.com/)   
+[눈누](https://noonnu.cc/)   
+[네이버 API(개발자 페이지)](https://developers.naver.com/main/)   
+[카카오 API(개발자 페이지)](https://developers.kakao.com/product)   
 
-
-
+API 사용법 설명 페이지
+  - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
+  - [공공데이터2](https://medium.com/@kimddub/java-open-api-%EC%82%AC%EC%9A%A9-559fe23fb608)   
+  - [공공데이터3](https://jjung-a.tistory.com/14)   
+  - [JSON 이용 데이터 Parsing](https://velog.io/@garam0410/Java-OPEN-API-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0-JSON)   
+  - 
+  
 
 ## 팀원 : 
 
