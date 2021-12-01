@@ -41,6 +41,10 @@
 
 [빗썸 API 자바 활용 (간단1)](https://steemit.com/kr/@coindori/public-api)   
 [빗썸 API 자바 활용 (간단2)](https://hive.blog/kr-dev/@nhj12311/6gy5ct)  
+[자바로 개발한 코인 시세보는 프로그램 예시(소스없음)](https://www.ddengle.com/develop/11064416)   
+[REST API 란 무엇일까요?](https://www.redhat.com/ko/topics/api/what-is-a-rest-api)   
+[JAVA REST API 호출 메소드](https://heum-story.tistory.com/124)   
+
 
 API 사용법 설명 포스트 모음 
   - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
