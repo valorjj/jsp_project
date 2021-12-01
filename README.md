@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+
 # JSP 프로젝트
 ---
 ## 주제 : [TBD]
@@ -13,6 +17,7 @@
 <선정기준>
 1. 재미 (=창의성, 신선함, 참신함)
 2. 완성도 (=기간내에 완성할 수 있는가?, 실제 상용되는 프로그램 수준의 80% 까지 만들 수 있는가?)
+
 
 ## 참고 사이트 :
 [공공기관데이터](https://www.data.go.kr/index.do)  
