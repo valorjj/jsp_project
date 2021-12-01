@@ -34,9 +34,9 @@
 [네이버 API(개발자 페이지)](https://developers.naver.com/main/)   
 [카카오 API(개발자 페이지)](https://developers.kakao.com/product)   
 
-[API 키 발급부터 상세 설명 페이지](https://jeong-pro.tistory.com/143)   
+[API 키 발급부터 상세 설명](https://jeong-pro.tistory.com/143)   
 
-API 사용법 설명 페이지
+API 사용법 설명 포스트 모음 
   - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
   - [공공데이터2](https://medium.com/@kimddub/java-open-api-%EC%82%AC%EC%9A%A9-559fe23fb608)   
   - [공공데이터3](https://jjung-a.tistory.com/14)   
