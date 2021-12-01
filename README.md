@@ -135,6 +135,7 @@ API 사용법 설명 포스트 모음
 
 ---
 
+프로젝트 진행하며 기록해 둘 개인 메모 영역 
 ### API 란 무엇인가? (Youtube 짧은 동영상 이미지 링크)
 
 [![Video Label](https://user-images.githubusercontent.com/30681841/144195925-996226ca-dce6-4799-83b4-be3572745d1d.png)](https://youtu.be/iyFHfzCRHA8)
