@@ -1,6 +1,6 @@
 # JSP 프로젝트
 ---
-## 주제 :
+## 주제 : [TBD]
 
 
 ### 주제 후보들 : 
@@ -9,6 +9,22 @@
 [2] 공공데이터 활용한 프로젝트 ( 쓰레기통, 택배, 숙박업체, 핸드폰 사용량 etc)
 [3] 주식 혹은 코인 api 를 활용한 거래 사이트 
 [4] 택배 통합 조회 
+
+<선정기준>
+1. 재미 (=창의성, 신선함, 참신함)
+2. 완성도 (=기간내에 완성할 수 있는가?, 실제 상용되는 프로그램 수준의 80% 까지 만들 수 있는가?)
+
+## 참고 사이트 :
+[공공기관데이터](https://www.data.go.kr/index.do)  
+[빗썸](https://www.bithumb.com/)   
+[마크다운 문법](https://gist.github.com/ihoneymon/652be052a0727ad59601)   
+[부트스트랩 공식문서](https://getbootstrap.com/docs/5.1/getting-started/introduction/)   
+[깃 공식문서](https://git-scm.com/book/ko/v2)   
+[mysql 문법](http://tcpschool.com/mysql/mysql_basic_syntax)   
+[jsp 구동원리](https://atoz-develop.tistory.com/entry/JSP-%EA%B5%AC%EB%8F%99-%EC%9B%90%EB%A6%AC?category=796489)   
+[jsp 문법](https://atoz-develop.tistory.com/entry/JSP-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-%EC%B4%9D-%EC%A0%95%EB%A6%AC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%8D%B0%EC%9D%B4%ED%84%B0-JSP-%EC%A0%84%EC%9A%A9-%ED%83%9C%EA%B7%B8-%EB%82%B4%EC%9E%A5-%EA%B0%9D%EC%B2%B4)   
+
+
 
 
 ## 팀원 : 
