@@ -114,8 +114,9 @@ API 사용법 설명 포스트 모음
 ## 개발 환경 : 
 > Mysql, Eclipse EE 2021-09, JDK 10
 
-##
+## 깃허브를 활용한 개발 전략 : 
 
+> main - dev - feature branch 
 
 
 
@@ -129,5 +130,13 @@ API 사용법 설명 포스트 모음
 
 # 완성 프론트엔트 : 
 
-# 
+
+
+
+---
+
+### API 란 무엇인가? (Youtube 짧은 동영상 이미지 링크)
+
+[![Video Label](https://user-images.githubusercontent.com/30681841/144195925-996226ca-dce6-4799-83b4-be3572745d1d.png)](https://youtu.be/iyFHfzCRHA8)
+
 
