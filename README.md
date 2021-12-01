@@ -50,8 +50,7 @@ API 사용법 설명 포스트 모음
   - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
   - [공공데이터2](https://medium.com/@kimddub/java-open-api-%EC%82%AC%EC%9A%A9-559fe23fb608)   
   - [공공데이터3](https://jjung-a.tistory.com/14)   
-  - [JSON 이용 데이터 Parsing](https://velog.io/@garam0410/Java-OPEN-API-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0-JSON)   
-  - 
+  - [JSON 이용 데이터 Parsing](https://velog.io/@garam0410/Java-OPEN-API-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0-JSON)    
   
 
 ## 팀원 : 
