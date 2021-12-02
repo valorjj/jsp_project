@@ -34,7 +34,6 @@
 [파이썬으로 구현한 코인 페이지 예제](https://velog.io/@wltjs10645/wecode-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EC%9D%B8%EC%9B%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EA%B1%B0%EB%9E%98%EC%86%8C-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9)   
 [자바를 이용해서 실시간 버스 정보 위치 지도에 표시하는 예제](https://kalza.tistory.com/40)   
 [자바를 이용해서 코로나 공공 마스크 판매하는 약국 위치 출력하는 예제](https://itstudy-mary.tistory.com/93)   
-[자바를 이용해서 미세먼지 경보 데이터 받아오기](https://itstudy-mary.tistory.com/93)   
 
 [API 키 발급부터 상세 설명](https://jeong-pro.tistory.com/143)   
 
