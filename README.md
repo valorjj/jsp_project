@@ -51,6 +51,9 @@ API 사용법 설명 포스트 모음
   - [공공데이터3](https://jjung-a.tistory.com/14)   
   - [JSON 이용 데이터 Parsing](https://velog.io/@garam0410/Java-OPEN-API-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0-JSON)    
   - [XML Parsing](https://sallykim5087.tistory.com/187)   
+  - [데이터 받아서 DB 연동(오라클)](https://datamoney.tistory.com/153)  
+  - [공공데이터 받아서 데이터 가져오기(servlet, jsp)](https://shlee0882.tistory.com/2)  
+  - [공공데이터 - 관광정보 데이터 파싱 예시코드](https://jjjayyy.tistory.com/3)  
   
 ---
 ## 팀원 : 
