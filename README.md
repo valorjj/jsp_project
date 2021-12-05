@@ -42,6 +42,8 @@
 [자바로 개발한 코인 시세보는 프로그램 예시(소스없음)](https://www.ddengle.com/develop/11064416)   
 [REST API 란 무엇일까요?](https://www.redhat.com/ko/topics/api/what-is-a-rest-api)   
 [JAVA REST API 호출 메소드](https://heum-story.tistory.com/124)   
+[자바 그래프 만들기 (xml, json, gson, 공공데이터, SWING)](https://ondolroom.tistory.com/253)  
+[[API] Chart.js](https://www.chartjs.org/)  
 
 
 API 사용법 설명 포스트 모음 
