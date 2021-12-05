@@ -153,4 +153,4 @@ API 사용법 설명 포스트 모음
 
 ### 자바로 웹 다루기 (동영상 링크, 엄청 많음)
 
-[![Video Label](https://user-images.githubusercontent.com/30681841/144737663-461ec21f-27d7-446f-818e-9a18b80b66e2.png")](https://youtu.be/o-Tfm91FuWs)
+[![Video Label](https://user-images.githubusercontent.com/30681841/144737663-461ec21f-27d7-446f-818e-9a18b80b66e2.png)](https://youtu.be/o-Tfm91FuWs)
