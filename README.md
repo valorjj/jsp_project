@@ -150,3 +150,7 @@ API 사용법 설명 포스트 모음
 
 [![Video Label](https://user-images.githubusercontent.com/30681841/144356722-fc26e733-da4d-40d6-909a-ab3bc64e5e98.png)](https://youtu.be/mNE_Fo7zNgo)
 
+
+### 자바로 웹 다루기 (동영상 링크, 엄청 많음)
+
+[![Video Label](https://user-images.githubusercontent.com/30681841/144737663-461ec21f-27d7-446f-818e-9a18b80b66e2.png")](https://youtu.be/o-Tfm91FuWs)
