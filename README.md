@@ -145,9 +145,17 @@ API 사용법 설명 포스트 모음
 
 프로젝트 진행하며 기록해 둘 개인 메모 영역 
 
+---
 [JSON 이란 무엇인가](https://ko.wikipedia.org/wiki/JSON)  
 [한국고용정보원_고용조사_청년패널조사_취업자분포](https://analysis.keis.or.kr/ypSubject.do#none)  
 <img width="830" alt="스크린샷 2021-12-05 오후 9 07 38" src="https://user-images.githubusercontent.com/30681841/144745844-d70936b1-14b9-40a2-b752-2fbabbcf9e5c.png">
+[한국부동산원_매입자 연령대별 부동산 거래 조회 서비스](https://www.data.go.kr/iim/api/selectAPIAcountView.do)  
+[서울특별시_소득대비 부채현황 통계](https://www.data.go.kr/data/15085172/fileData.do)   
+[서울특별시_부동산 실거래가 정보](https://www.data.go.kr/data/15052419/fileData.do)   
+[서울특별시 전월세가 정보](http://data.seoul.go.kr/dataList/OA-15549/S/1/datasetView.do)  
+[국토교통부_주택실거래가 전월세코드](https://www.data.go.kr/data/15063990/fileData.do#tab-layer-openapi)   
+[한국부동산원_아파트 전월세통합가격지수(월별)](https://www.data.go.kr/data/15044028/fileData.do)   
+[국토교통부_아파트매매 실거래 상세 자료](https://www.data.go.kr/data/15057511/openapi.do)  
 
 
 [추천 데이터 모음](https://www.data.go.kr/tcs/eds/idt/selectIssueData.do?issueId=340005&issueType=RECOMMENDM&sortType=sort_order&perPage=10)   
