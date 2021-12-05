@@ -144,6 +144,14 @@ API 사용법 설명 포스트 모음
 ---
 
 프로젝트 진행하며 기록해 둘 개인 메모 영역 
+
+[JSON 이란 무엇인가](https://ko.wikipedia.org/wiki/JSON)  
+[한국고용정보원_고용조사_청년패널조사_취업자분포](https://analysis.keis.or.kr/ypSubject.do#none)  
+<img width="830" alt="스크린샷 2021-12-05 오후 9 07 38" src="https://user-images.githubusercontent.com/30681841/144745844-d70936b1-14b9-40a2-b752-2fbabbcf9e5c.png">
+
+
+[추천 데이터 모음](https://www.data.go.kr/tcs/eds/idt/selectIssueData.do?issueId=340005&issueType=RECOMMENDM&sortType=sort_order&perPage=10)   
+
 ### API 란 무엇인가? (동영상 링크)
 
 [![Video Label](https://user-images.githubusercontent.com/30681841/144195925-996226ca-dce6-4799-83b4-be3572745d1d.png)](https://youtu.be/iyFHfzCRHA8)
