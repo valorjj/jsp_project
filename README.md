@@ -42,6 +42,7 @@
 [(예전글)빗썸 api 이용한 트레이딩 프로그램 만들기 포스팅](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=j931018&logNo=221151764465)   
 [ajax + 빗썸 api 이용한 실시간 그래프 그리기](https://jvvp.tistory.com/1157)  
 
+
 [WORKNET API](https://openapi.work.go.kr/opiMain.do)   
 
 
@@ -216,3 +217,5 @@ Representational State Transfer API
 ![image](https://user-images.githubusercontent.com/30681841/144964839-96e9b527-9a9d-4b6f-95fb-e683b9f80f81.png)
 ![image](https://user-images.githubusercontent.com/30681841/144972726-cf0a1774-4643-46a9-90cf-80e9d61510a9.png)
 
+
+[ajax 이용해서 실시간 그래프 그리기](https://jvvp.tistory.com/1093?category=876738)   
