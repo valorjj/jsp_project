@@ -38,6 +38,10 @@
 [자바를 이용해서 코로나 공공 마스크 판매하는 약국 위치 출력하는 예제](https://itstudy-mary.tistory.com/93)   
 [한 권으로 끝내는 주식 자동매매 프로그램 만들기](https://wikidocs.net/book/1930)   
 
+
+[(예전글)빗썸 api 이용한 트레이딩 프로그램 만들기 포스팅](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=j931018&logNo=221151764465)   
+[ajax + 빗썸 api 이용한 실시간 그래프 그리기](https://jvvp.tistory.com/1157)  
+
 [WORKNET API](https://openapi.work.go.kr/opiMain.do)   
 
 
