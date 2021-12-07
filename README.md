@@ -214,11 +214,7 @@ Representational State Transfer API
 ![image](https://user-images.githubusercontent.com/30681841/144964806-2f95a2a2-e2cf-4ec0-949d-b52d163c6034.png)
 ![image](https://user-images.githubusercontent.com/30681841/144964821-abda8842-f746-46fd-b85b-6919f7cd7000.png)
 ![image](https://user-images.githubusercontent.com/30681841/144964839-96e9b527-9a9d-4b6f-95fb-e683b9f80f81.png)
-
-
-
-![image](https://user-images.githubusercontent.com/30681841/144965341-bba395ef-0163-44df-b7d8-69bb180fe6cc.png)
-
+![image](https://user-images.githubusercontent.com/30681841/144972678-bae23547-a951-432e-ab61-56ebc7d2fece.png)
 
 
 
