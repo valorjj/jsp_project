@@ -203,9 +203,7 @@ Representational State Transfer API
   6. 계층형 구조 : REST 서버는 다중 계층으로 구성될 수 있다. 보안, 로드 밸런싱, 암호화 계층을 추가해 구조상의 유연성을 둘 수 있다. 그리고 Proxy, Gateway 같은 네트워크 기반의 중간 매체를 사용할 수 있다. 
 
 
-
-
-![image](https://user-images.githubusercontent.com/30681841/144817298-a782925b-72b6-401e-830d-01b64c30122b.png)  
+![image](https://user-images.githubusercontent.com/30681841/144965018-ed84d17c-331c-430b-8dc5-31ffc1520714.png)
 ![image](https://user-images.githubusercontent.com/30681841/144817325-40e26d20-ed0b-441f-b60c-0d1d98217aeb.png)   
 ![image](https://user-images.githubusercontent.com/30681841/144964743-85dc24d7-59b2-4c05-a5ae-f141e6a13767.png)
 ![image](https://user-images.githubusercontent.com/30681841/144964753-6736e1a8-ff46-48d3-b65f-da0394e8b8ec.png)  
