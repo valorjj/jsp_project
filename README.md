@@ -238,4 +238,29 @@ Representational State Transfer API
 6. 공유 기능 (한 계정이 올린 사진을 다른 계정의 글에 등록시킨다)
 7. 댓글 기능 (사진 오른쪽 : 댓글 등록한 계정의 사진, 댓글 내용, 좋아요, 대댓글이 달리면 접어서 보관, 부트스트랩의 collapse 로 하면 될듯)
 8. 이미지 출력은 격자식으로 출력하되 처음엔 4x4 = 16개 출력, 스크롤바를 아래로 내리면 이미지를 그제야 새로운 이미지를 불러와서 4x4 = 16개 추가로 출력
-9. 
+
+
+### 게시판에 충실한 카페 만들고 관리할 수 있는 프로그램
+
+
+![슬라이드1](https://user-images.githubusercontent.com/30681841/145245585-37175c8b-3b6d-48bd-9250-6c1523c522a2.PNG)
+![슬라이드2](https://user-images.githubusercontent.com/30681841/145245588-f3b72302-44e9-43c3-bf49-c1391d417534.PNG)
+![슬라이드3](https://user-images.githubusercontent.com/30681841/145245591-b4e69c7b-129f-4a97-b071-a63ee031153a.PNG)
+![슬라이드4](https://user-images.githubusercontent.com/30681841/145245595-1e827c54-66be-4072-950f-19efb1f6eba1.PNG)
+![슬라이드5](https://user-images.githubusercontent.com/30681841/145245599-e3c9f55d-2d4f-485c-abea-8be519185427.PNG)
+![슬라이드6](https://user-images.githubusercontent.com/30681841/145245601-fdb1572c-d7de-4c6d-9ce5-b3cadc475060.PNG)
+![슬라이드7](https://user-images.githubusercontent.com/30681841/145245604-043ad390-5417-43e6-9dc8-ed6da28b9d1b.PNG)
+![슬라이드8](https://user-images.githubusercontent.com/30681841/145245608-94e937b7-253b-4879-97d8-678f881ce1ba.PNG)
+![슬라이드9](https://user-images.githubusercontent.com/30681841/145245613-92b6f8d9-7c4a-42ba-aebf-16034ae7c7ba.PNG)
+![슬라이드10](https://user-images.githubusercontent.com/30681841/145245615-9c18ab16-01d0-4f05-b77d-af463dde0595.PNG)
+![슬라이드11](https://user-images.githubusercontent.com/30681841/145245617-5e4d5639-bbaa-4a90-89fa-168ea0f3f692.PNG)
+![슬라이드12](https://user-images.githubusercontent.com/30681841/145245618-0a87cbb0-b1a0-443f-b338-234f1a9ac4a2.PNG)
+![슬라이드13](https://user-images.githubusercontent.com/30681841/145245619-93f8af57-1d75-498e-b9b9-bded438c1d0c.PNG)
+![슬라이드14](https://user-images.githubusercontent.com/30681841/145245620-7574e553-f1f1-453c-a729-53ec16b89bf7.PNG)
+![슬라이드15](https://user-images.githubusercontent.com/30681841/145245622-e1936e98-1e68-4e27-b18b-6af2b1493def.PNG)
+![슬라이드16](https://user-images.githubusercontent.com/30681841/145245624-cfae3997-c8ad-412e-abaa-906deb2795b1.PNG)
+![슬라이드17](https://user-images.githubusercontent.com/30681841/145245627-9d820eae-5b45-441b-b8e5-70628295585b.PNG)
+![슬라이드18](https://user-images.githubusercontent.com/30681841/145245631-f76b697a-dfae-42f3-9597-24936e1d2cc9.PNG)
+![슬라이드19](https://user-images.githubusercontent.com/30681841/145245576-1afea956-0654-4a94-b503-d18bd64842b0.PNG)
+![슬라이드20](https://user-images.githubusercontent.com/30681841/145245582-483018ce-8404-4de4-8424-9ffe3d01165a.PNG)
+![image](https://user-images.githubusercontent.com/30681841/145247042-ef4140e0-413d-45dc-932f-c5d253eea1f0.png)
