@@ -1,6 +1,6 @@
 # JSP 프로젝트
 ---
-## 주제 : 인스타그램 클론코딩 
+# 주제 : 인스타그램 클론코딩 
 
 ---
 
@@ -65,7 +65,7 @@ API 사용법 설명 포스트 모음
 [자바스크립트 스크롤이벤트](https://www.everdevel.com/JavaScript/scroll-event/)  
 
 
-## 팀원 : 
+# 팀원 : 
 
 팀원이름 | 맡은 부분 | 
 --- | --- |
@@ -74,10 +74,13 @@ API 사용법 설명 포스트 모음
 김태호 | 0 |
 김정진 | 0 |
 
-## 프로젝트 소개 :
+# 프로젝트 소개 :
 
-## 프로젝트 스케줄 :
+---
+# 프로젝트 스케줄 :
 
+
+---
 ### 프로젝트 진척도 테이블
 
 날짜 | 팀원 | 목록 | 진척도 |
@@ -88,9 +91,9 @@ API 사용법 설명 포스트 모음
 2021.12.04 |  |  | X |
 2021.12.05 |  |  | X |
 2021.12.06 |  |  | X |
-2021.12.07 |  |  |  |
-2021.12.08 |  |  |  |
-2021.12.09 |  |  |  |
+2021.12.07 |  |  | X |
+2021.12.08 |  |  | X |
+2021.12.09 |  |  | X |
 2021.12.10 |  |  |  |
 2021.12.11 |  |  |  |
 2021.12.12 |  |  |  |
@@ -127,13 +130,14 @@ API 사용법 설명 포스트 모음
 
 
 ## 개발 환경 : 
-> Mysql, Eclipse EE 2021-09, JDK 10, HTML, CSS, JAVASCRIPT, BOOTSTRAP, JAVA
 
-## 깃허브를 활용한 개발 전략 : 
+> 백엔드 : mysql, eclipse EE 2021-09, jdk 10
+
+> 프론트 : html, css, javascript, bootstrap, node.js
+
+### 깃허브를 활용한 개발 전략 : 
 
 > main - dev - feature branch 
-
-
 
 # 주요 기능 : 
 
@@ -144,117 +148,3 @@ API 사용법 설명 포스트 모음
 # 초기 프론트엔트 : 
 
 # 완성 프론트엔트 : 
-
-
-
-
----
-
-프로젝트 진행하며 기록해 둘 개인 메모 영역 
-
----
-[JSON 이란 무엇인가](https://ko.wikipedia.org/wiki/JSON)   
-[한국고용정보원_고용조사_청년패널조사_취업자분포](https://analysis.keis.or.kr/ypSubject.do#none)    
-<img width="830" alt="스크린샷 2021-12-05 오후 9 07 38" src="https://user-images.githubusercontent.com/30681841/144745844-d70936b1-14b9-40a2-b752-2fbabbcf9e5c.png">   
-[한국부동산원_매입자 연령대별 부동산 거래 조회 서비스](https://www.data.go.kr/iim/api/selectAPIAcountView.do)   
-[행정안전부_지역통합재정규모(자산대비부채비율)](https://www.data.go.kr/data/15056593/openapi.do)    
-[서울특별시_부동산 실거래가 정보](https://www.data.go.kr/data/15052419/fileData.do)    
-[서울특별시 전월세가 정보](http://data.seoul.go.kr/dataList/OA-15549/S/1/datasetView.do)  
-[국토교통부_주택실거래가 전월세코드](https://www.data.go.kr/data/15063990/fileData.do#tab-layer-openapi)    
-[한국부동산원_아파트 전월세통합가격지수(월별)](https://www.data.go.kr/data/15044028/fileData.do)    
-[국토교통부_아파트매매 실거래 상세 자료](https://www.data.go.kr/data/15057511/openapi.do)  
-  
-
-[추천 데이터 모음](https://www.data.go.kr/tcs/eds/idt/selectIssueData.do?issueId=340005&issueType=RECOMMENDM&sortType=sort_order&perPage=10)   
-
-### API 란 무엇인가? (동영상 링크)
-
-[![Video Label](https://user-images.githubusercontent.com/30681841/144195925-996226ca-dce6-4799-83b4-be3572745d1d.png)](https://youtu.be/iyFHfzCRHA8)
-
-
-### 자바를 활용한 API 가져오기 (동영상 링크)  
-
-[![Video Label](https://user-images.githubusercontent.com/30681841/144356722-fc26e733-da4d-40d6-909a-ab3bc64e5e98.png)](https://youtu.be/mNE_Fo7zNgo)
-
-
-### 자바로 웹 다루기 (동영상 링크, 엄청 많음)
-
-[![Video Label](https://user-images.githubusercontent.com/30681841/144737663-461ec21f-27d7-446f-818e-9a18b80b66e2.png)](https://youtu.be/o-Tfm91FuWs)
-
-
-### REST API 이론 정리 
-
-Representational State Transfer API 
-
-1. REST 구성
-  1. 자원(Resource) : URI
-  2. 행위(Verb) : HHTP METHOD
-  3. 표현(Representation)
-2. REST 의 특징
-  1. 유니폼 인터페이스 : URI 로 지정한 리소스에 대한 조작을 통일되고 한정적인 인터페이스로 수행
-  2. 무상태성(Stateless) : 작업을 위한 상태정보를 따로 저장하고 관리하지 않는다. 세션 정보나 쿠키 정보를 별도로 저장하고 관리하지 않기 때문에 API 서버는 들어오는 요청만을 단순히 처리한다. 덕분에 서비스의 자유도가 높아지고, 서버에서 불필요한 정보를 관리하지 않아서 구현이 단순해진다. 
-  3. 캐시 가능(Cacheable) : REST 의 가장 큰 특징은 HTTP 라는 기존 웹 표준을 그대로 사용하기 때문에, 웹에서 사용하는 기존 인프라를 그대로 활용 가능하다. 이는 HTTP 가 가진 캐싱 기능을 사용할 수 있다는 말이다. HTTP 프로토콜 표준에서 사용하는 Last-Modified 태그, 혹은 E-Tag 를 사용하면 가능
-  4. 자체 표현 구조 : REST API 메시지만 보고도 이해할 수 있는 자체 표현 구조로 되어있다. 
-  5. 클라이언트 - 서버 구조 : REST 서버는 API 제공, 클라이언트는 사용자 인증이나 Context(세션, 로그인 정보 등) 를 직접 관리하는 구조로 각각의 역할이 확실히 구분되기 때문에, 클라리언트와 서버에서 개발해야 할 내용이 명확해지고 서로 간 의존성이 줄어든다. 
-  6. 계층형 구조 : REST 서버는 다중 계층으로 구성될 수 있다. 보안, 로드 밸런싱, 암호화 계층을 추가해 구조상의 유연성을 둘 수 있다. 그리고 Proxy, Gateway 같은 네트워크 기반의 중간 매체를 사용할 수 있다. 
-
-
-![image](https://user-images.githubusercontent.com/30681841/144965018-ed84d17c-331c-430b-8dc5-31ffc1520714.png)
-![image](https://user-images.githubusercontent.com/30681841/144817325-40e26d20-ed0b-441f-b60c-0d1d98217aeb.png)   
-![image](https://user-images.githubusercontent.com/30681841/144964743-85dc24d7-59b2-4c05-a5ae-f141e6a13767.png)
-![image](https://user-images.githubusercontent.com/30681841/144964753-6736e1a8-ff46-48d3-b65f-da0394e8b8ec.png)  
-![image](https://user-images.githubusercontent.com/30681841/144964766-7d8193ab-c7b7-4a8e-ad01-c71a622a2ff0.png)
-![image](https://user-images.githubusercontent.com/30681841/144964779-45de808e-ce9e-4c3d-9307-483bfba72839.png)
-![image](https://user-images.githubusercontent.com/30681841/144964791-0e48111b-26b2-42e6-9135-0690fe03f16b.png)
-![image](https://user-images.githubusercontent.com/30681841/144964806-2f95a2a2-e2cf-4ec0-949d-b52d163c6034.png)
-![image](https://user-images.githubusercontent.com/30681841/144964821-abda8842-f746-46fd-b85b-6919f7cd7000.png)
-![image](https://user-images.githubusercontent.com/30681841/144964839-96e9b527-9a9d-4b6f-95fb-e683b9f80f81.png)
-![image](https://user-images.githubusercontent.com/30681841/144972726-cf0a1774-4643-46a9-90cf-80e9d61510a9.png)
-
-
-[ajax 이용해서 실시간 그래프 그리기](https://jvvp.tistory.com/1093?category=876738)   
-
-
-
-### 만약에 인스타그램을 만든다고 가정해보자. 
-
-1. 검색창 
-(DB 와 연동해서 키워드 입력 후 사진 + 목록으로 출력)
-![image](https://user-images.githubusercontent.com/30681841/145178291-b52bf4ba-6e96-4470-98d4-e2b69e88b19d.png)
-
-2. 이미지 등록 후 격자 식 출력 
-![image](https://user-images.githubusercontent.com/30681841/145178457-f14786b7-6bef-46b4-9074-814803e86173.png)
-
-3. 프로필 사진을 클릭하면 일정 시간 출력 후 사라지는 이미지들 출력 
-
-4. 다수가 동시에 로그인 할 수 있어야 함
-5. 좋아요 기능 (한 계정이 다른 계정이 올린 포스팅에 좋아요를 누른다 -> 관계 + 1, 추천 목록 출력 시 관계 수치를 활용한다. )
-6. 공유 기능 (한 계정이 올린 사진을 다른 계정의 글에 등록시킨다)
-7. 댓글 기능 (사진 오른쪽 : 댓글 등록한 계정의 사진, 댓글 내용, 좋아요, 대댓글이 달리면 접어서 보관, 부트스트랩의 collapse 로 하면 될듯)
-8. 이미지 출력은 격자식으로 출력하되 처음엔 4x4 = 16개 출력, 스크롤바를 아래로 내리면 이미지를 그제야 새로운 이미지를 불러와서 4x4 = 16개 추가로 출력
-
-
-### 게시판에 충실한 카페 만들고 관리할 수 있는 프로그램
-
-
-![슬라이드1](https://user-images.githubusercontent.com/30681841/145245585-37175c8b-3b6d-48bd-9250-6c1523c522a2.PNG)
-![슬라이드2](https://user-images.githubusercontent.com/30681841/145245588-f3b72302-44e9-43c3-bf49-c1391d417534.PNG)
-![슬라이드3](https://user-images.githubusercontent.com/30681841/145245591-b4e69c7b-129f-4a97-b071-a63ee031153a.PNG)
-![슬라이드4](https://user-images.githubusercontent.com/30681841/145245595-1e827c54-66be-4072-950f-19efb1f6eba1.PNG)
-![슬라이드5](https://user-images.githubusercontent.com/30681841/145245599-e3c9f55d-2d4f-485c-abea-8be519185427.PNG)
-![슬라이드6](https://user-images.githubusercontent.com/30681841/145245601-fdb1572c-d7de-4c6d-9ce5-b3cadc475060.PNG)
-![슬라이드7](https://user-images.githubusercontent.com/30681841/145245604-043ad390-5417-43e6-9dc8-ed6da28b9d1b.PNG)
-![슬라이드8](https://user-images.githubusercontent.com/30681841/145245608-94e937b7-253b-4879-97d8-678f881ce1ba.PNG)
-![슬라이드9](https://user-images.githubusercontent.com/30681841/145245613-92b6f8d9-7c4a-42ba-aebf-16034ae7c7ba.PNG)
-![슬라이드10](https://user-images.githubusercontent.com/30681841/145245615-9c18ab16-01d0-4f05-b77d-af463dde0595.PNG)
-![슬라이드11](https://user-images.githubusercontent.com/30681841/145245617-5e4d5639-bbaa-4a90-89fa-168ea0f3f692.PNG)
-![슬라이드12](https://user-images.githubusercontent.com/30681841/145245618-0a87cbb0-b1a0-443f-b338-234f1a9ac4a2.PNG)
-![슬라이드13](https://user-images.githubusercontent.com/30681841/145245619-93f8af57-1d75-498e-b9b9-bded438c1d0c.PNG)
-![슬라이드14](https://user-images.githubusercontent.com/30681841/145245620-7574e553-f1f1-453c-a729-53ec16b89bf7.PNG)
-![슬라이드15](https://user-images.githubusercontent.com/30681841/145245622-e1936e98-1e68-4e27-b18b-6af2b1493def.PNG)
-![슬라이드16](https://user-images.githubusercontent.com/30681841/145245624-cfae3997-c8ad-412e-abaa-906deb2795b1.PNG)
-![슬라이드17](https://user-images.githubusercontent.com/30681841/145245627-9d820eae-5b45-441b-b8e5-70628295585b.PNG)
-![슬라이드18](https://user-images.githubusercontent.com/30681841/145245631-f76b697a-dfae-42f3-9597-24936e1d2cc9.PNG)
-![슬라이드19](https://user-images.githubusercontent.com/30681841/145245576-1afea956-0654-4a94-b503-d18bd64842b0.PNG)
-![슬라이드20](https://user-images.githubusercontent.com/30681841/145245582-483018ce-8404-4de4-8424-9ffe3d01165a.PNG)
-![image](https://user-images.githubusercontent.com/30681841/145247042-ef4140e0-413d-45dc-932f-c5d253eea1f0.png)
