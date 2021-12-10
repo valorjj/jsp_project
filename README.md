@@ -343,3 +343,18 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145522658-e3fc32c2-96ed-42c5-9dc5-2974aec2d9cc.PNG)
 ![슬라이드5](https://user-images.githubusercontent.com/30681841/145522661-f9be4844-18b7-418b-b09b-d018eac57386.PNG)
 ![슬라이드6](https://user-images.githubusercontent.com/30681841/145522662-003834dc-3a4c-4b4c-bf93-374652d2f602.PNG)
+
+## 코드 작성 시 규칙 : 
+
+![image](https://user-images.githubusercontent.com/30681841/145594609-4d497b42-0067-4d23-8fbf-7129c4898c53.png)
+![image](https://user-images.githubusercontent.com/30681841/145594645-231e2da9-c4f0-4aed-aa04-098d85a77b87.png)
+![image](https://user-images.githubusercontent.com/30681841/145594662-17c05a97-3d30-4a87-b53d-beef915228bc.png)
+![image](https://user-images.githubusercontent.com/30681841/145594683-36098fff-6d35-4fad-a8b9-7e45d68cf8c5.png)
+![image](https://user-images.githubusercontent.com/30681841/145594702-f51adc41-fc18-4705-a565-86d0ba316c22.png)
+![image](https://user-images.githubusercontent.com/30681841/145594712-3783f758-133c-43db-b08b-a104976fb64c.png)
+![image](https://user-images.githubusercontent.com/30681841/145594725-dd3c5147-d900-4968-be91-e813b3a193a0.png)
+![image](https://user-images.githubusercontent.com/30681841/145594753-a96a5b95-4915-4eda-9d9c-853f8646956e.png)
+
+
+
+
