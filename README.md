@@ -94,7 +94,7 @@ API 사용법 설명 포스트 모음
 2021.12.07 |  |  | X |
 2021.12.08 |  |  | X |
 2021.12.09 |  |  | X |
-2021.12.10 |  |  |  |
+2021.12.10 | 전체 | 주제선정 및 세부 일정 조율  | 100% |
 2021.12.11 |  |  |  |
 2021.12.12 |  |  |  |
 2021.12.13 |  |  |  |
@@ -120,7 +120,8 @@ API 사용법 설명 포스트 모음
 
 우선순위(1~10) | 큰주제 | 진척도 |
 --- | --- | --- |
-우선순위 | 큰주제 | 달성률(%) |
+1 | 메인 게시물 | 0 |
+2 | 상단 검색 | 0 |
 
 ### 주제별 달성 현황
 
@@ -148,3 +149,11 @@ API 사용법 설명 포스트 모음
 # 초기 프론트엔트 : 
 
 # 완성 프론트엔트 : 
+
+
+![슬라이드1](https://user-images.githubusercontent.com/30681841/145522654-a433a07a-bfc1-45bb-b4f7-0c03e7e63d4b.PNG)
+![슬라이드2](https://user-images.githubusercontent.com/30681841/145522656-2e9ac0e3-7e29-4ffa-bc24-0d8f9479fa86.PNG)
+![슬라이드3](https://user-images.githubusercontent.com/30681841/145522657-1ada10a1-25a7-4f99-9448-98628dbeb26b.PNG)
+![슬라이드4](https://user-images.githubusercontent.com/30681841/145522658-e3fc32c2-96ed-42c5-9dc5-2974aec2d9cc.PNG)
+![슬라이드5](https://user-images.githubusercontent.com/30681841/145522661-f9be4844-18b7-418b-b09b-d018eac57386.PNG)
+![슬라이드6](https://user-images.githubusercontent.com/30681841/145522662-003834dc-3a4c-4b4c-bf93-374652d2f602.PNG)
