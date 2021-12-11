@@ -6,58 +6,8 @@
 
 
 ## 참고 사이트 :
-[공공기관데이터](https://www.data.go.kr/index.do)  
-[빗썸](https://www.bithumb.com/)   
-[빗썸API](https://apidocs.bithumb.com/docs/api_info)   
-[마크다운 문법](https://gist.github.com/ihoneymon/652be052a0727ad59601)   
-[부트스트랩 공식문서](https://getbootstrap.com/docs/5.1/getting-started/introduction/)   
-[깃 공식문서](https://git-scm.com/book/ko/v2)   
-[mysql 문법](http://tcpschool.com/mysql/mysql_basic_syntax)   
-[jsp 구동원리](https://atoz-develop.tistory.com/entry/JSP-%EA%B5%AC%EB%8F%99-%EC%9B%90%EB%A6%AC?category=796489)   
-[jsp 문법](https://atoz-develop.tistory.com/entry/JSP-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-%EC%B4%9D-%EC%A0%95%EB%A6%AC-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%8D%B0%EC%9D%B4%ED%84%B0-JSP-%EC%A0%84%EC%9A%A9-%ED%83%9C%EA%B7%B8-%EB%82%B4%EC%9E%A5-%EA%B0%9D%EC%B2%B4)   
-[Notion 사용법](https://www.notion.so/Notion-Tutorial-X-ABONEU-3cee21ebb7a4404cbf31a2e8cc98d5b9)   
-[font awesome](https://fontawesome.com/)   
-[눈누](https://noonnu.cc/)   
-[네이버 API(개발자 페이지)](https://developers.naver.com/main/)   
-[카카오 API(개발자 페이지)](https://developers.kakao.com/product)   
-
-[파이썬으로 구현한 코인 페이지 예제](https://velog.io/@wltjs10645/wecode-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%BD%94%EC%9D%B8%EC%9B%90-%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90-%EA%B1%B0%EB%9E%98%EC%86%8C-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9)   
-[자바를 이용해서 실시간 버스 정보 위치 지도에 표시하는 예제](https://kalza.tistory.com/40)   
-[자바를 이용해서 코로나 공공 마스크 판매하는 약국 위치 출력하는 예제](https://itstudy-mary.tistory.com/93)   
-[한 권으로 끝내는 주식 자동매매 프로그램 만들기](https://wikidocs.net/book/1930)   
 
 
-[(예전글)빗썸 api 이용한 트레이딩 프로그램 만들기 포스팅](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=j931018&logNo=221151764465)   
-[ajax + 빗썸 api 이용한 실시간 그래프 그리기](https://jvvp.tistory.com/1157)  
-
-
-[WORKNET API](https://openapi.work.go.kr/opiMain.do)   
-
-
-[API 키 발급부터 상세 설명](https://jeong-pro.tistory.com/143)   
-
-[빗썸 API 자바 활용 (간단1)](https://steemit.com/kr/@coindori/public-api)   
-[빗썸 API 자바 활용 (간단2)](https://hive.blog/kr-dev/@nhj12311/6gy5ct)  
-[자바로 개발한 코인 시세보는 프로그램 예시(소스없음)](https://www.ddengle.com/develop/11064416)   
-[REST API 란 무엇일까요?](https://www.redhat.com/ko/topics/api/what-is-a-rest-api)   
-[JAVA REST API 호출 메소드](https://heum-story.tistory.com/124)   
-[자바 그래프 만들기 (xml, json, gson, 공공데이터, SWING)](https://ondolroom.tistory.com/253)  
-[[API] Chart.js](https://www.chartjs.org/)  
-[Beautiful HTML5 Charts & Graphs](https://canvasjs.com/)  
-[Chart js](https://www.chartjs.org/docs/latest/)   
-[HighChart](https://www.highcharts.com/)  
-
-
-API 사용법 설명 포스트 모음 
-  - [공공데이터1](https://fbtmdwhd33.tistory.com/264)   
-  - [공공데이터2](https://medium.com/@kimddub/java-open-api-%EC%82%AC%EC%9A%A9-559fe23fb608)   
-  - [공공데이터3](https://jjung-a.tistory.com/14)   
-  - [JSON 이용 데이터 Parsing](https://velog.io/@garam0410/Java-OPEN-API-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0-JSON)    
-  - [XML Parsing](https://sallykim5087.tistory.com/187)   
-  - [데이터 받아서 DB 연동(오라클)](https://datamoney.tistory.com/153)  
-  - [공공데이터 받아서 데이터 가져오기(servlet, jsp)](https://shlee0882.tistory.com/2)  
-  - [공공데이터 - 관광정보 데이터 파싱 예시코드](https://jjjayyy.tistory.com/3)  
-  
 ---
 
 ### 프론트 참고 사이트
