@@ -302,7 +302,16 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 # 주요 기능 : 
 
+![image](https://user-images.githubusercontent.com/30681841/145710666-f7c01111-7c73-4438-abb8-94684e6cba03.png)
+
+---
+
 # 핵심 코드 : 
+
+
+
+
+---
 
 # 디자인 규칙 : 
 
