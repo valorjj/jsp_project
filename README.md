@@ -338,9 +338,11 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 ## 코드 작성 시 규칙 : 
 
+[출처](https://boyboy94.tistory.com/13)  
+
 ![image](https://user-images.githubusercontent.com/30681841/145594609-4d497b42-0067-4d23-8fbf-7129c4898c53.png)
-![image](https://user-images.githubusercontent.com/30681841/145594645-231e2da9-c4f0-4aed-aa04-098d85a77b87.png)
-![image](https://user-images.githubusercontent.com/30681841/145594662-17c05a97-3d30-4a87-b53d-beef915228bc.png)
+![image](https://user-images.githubusercontent.com/30681841/145712413-edde7bf8-f455-4703-903c-62b16008cfe8.png)
+![image](https://user-images.githubusercontent.com/30681841/145712425-ac20bc25-ba01-4833-90da-bb9382098b19.png)
 ![image](https://user-images.githubusercontent.com/30681841/145594683-36098fff-6d35-4fad-a8b9-7e45d68cf8c5.png)
 ![image](https://user-images.githubusercontent.com/30681841/145594702-f51adc41-fc18-4705-a565-86d0ba316c22.png)
 ![image](https://user-images.githubusercontent.com/30681841/145594712-3783f758-133c-43db-b08b-a104976fb64c.png)
