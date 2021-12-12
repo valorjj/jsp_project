@@ -304,10 +304,18 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 # 핵심 코드 : 
 
-# 초기 프론트엔트 : 
+# 디자인 규칙 : 
 
-# 완성 프론트엔트 : 
+![image](https://user-images.githubusercontent.com/30681841/145705958-a9dac8c0-4540-4fbf-b0e7-57f38817d5bc.png)
+![image](https://user-images.githubusercontent.com/30681841/145705993-e67109a2-3a3b-40ae-8b06-9e7b0a6d8f09.png)
+![image](https://user-images.githubusercontent.com/30681841/145705986-2bfb93f8-1331-47c1-9aef-6b68e93a1e0c.png)
 
+
+
+
+---
+
+# 개발 노트 : 
 
 ![슬라이드1](https://user-images.githubusercontent.com/30681841/145522654-a433a07a-bfc1-45bb-b4f7-0c03e7e63d4b.PNG)
 ![슬라이드2](https://user-images.githubusercontent.com/30681841/145522656-2e9ac0e3-7e29-4ffa-bc24-0d8f9479fa86.PNG)
@@ -315,6 +323,9 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145522658-e3fc32c2-96ed-42c5-9dc5-2974aec2d9cc.PNG)
 ![슬라이드5](https://user-images.githubusercontent.com/30681841/145522661-f9be4844-18b7-418b-b09b-d018eac57386.PNG)
 ![슬라이드6](https://user-images.githubusercontent.com/30681841/145522662-003834dc-3a4c-4b4c-bf93-374652d2f602.PNG)
+
+
+---
 
 ## 코드 작성 시 규칙 : 
 
@@ -326,6 +337,8 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![image](https://user-images.githubusercontent.com/30681841/145594712-3783f758-133c-43db-b08b-a104976fb64c.png)
 ![image](https://user-images.githubusercontent.com/30681841/145594725-dd3c5147-d900-4968-be91-e813b3a193a0.png)
 ![image](https://user-images.githubusercontent.com/30681841/145594753-a96a5b95-4915-4eda-9d9c-853f8646956e.png)
+![image](https://user-images.githubusercontent.com/30681841/145705690-e88323b7-b7a5-41d3-9e97-d98b35dcc740.png)
+
 
 
 # DB 설계 
