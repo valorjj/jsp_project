@@ -128,7 +128,7 @@ DB 설계 - Like | 유저 - 좋아요 | | 0% |
 ---
 # 역할분담 
 ---
-### 프론트 
+### 프론트 + DB
 ---
 
 | 담당자 | 주제 |
@@ -287,7 +287,7 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 ## 개발 환경 : 
 
-> 백엔드 : mysql, eclipse EE 2021-09, jdk 10
+> 백엔드 : mysql, eclipse EE 2021-09, jdk 1.8 
 
 > 프론트 : html, css, javascript, bootstrap, node.js
 
@@ -303,8 +303,6 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 # 주요 기능 : 
 
 # 핵심 코드 : 
-
-# DB 설계 : 
 
 # 초기 프론트엔트 : 
 
@@ -330,7 +328,7 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![image](https://user-images.githubusercontent.com/30681841/145594753-a96a5b95-4915-4eda-9d9c-853f8646956e.png)
 
 
-
+# DB 설계 
 
 ![슬라이드1](https://user-images.githubusercontent.com/30681841/145669626-ad917e4e-4d1f-41dc-8c02-e0a44f96c5dd.PNG)
 ![슬라이드2](https://user-images.githubusercontent.com/30681841/145669629-761975b3-eaab-48e5-ae18-28985231cc83.PNG)
