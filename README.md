@@ -308,6 +308,10 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 # 핵심 코드 : 
 
+![image](https://user-images.githubusercontent.com/30681841/145717750-a570cf8c-df57-43ea-81dd-ecafb9bb89d2.png)
+![image](https://user-images.githubusercontent.com/30681841/145717758-438ed0f7-224c-4dd2-90d1-7a794f5c8912.png)
+
+
 
 
 
