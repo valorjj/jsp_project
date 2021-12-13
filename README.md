@@ -404,3 +404,7 @@ create table sns.user(
 ![슬라이드20](https://user-images.githubusercontent.com/30681841/145778583-7963eddc-447f-46fc-8156-c1aab7786994.PNG)
 ![슬라이드21](https://user-images.githubusercontent.com/30681841/145778587-de8a9154-ef5b-4b98-8f3c-6c45d87c98fd.PNG)
 
+
+# 컨트롤러 정리 
+
+
