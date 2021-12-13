@@ -379,3 +379,16 @@ create table sns.user(
 )
 ```
 
+
+# 프론트엔드 설계 
+
+
+![슬라이드1](https://user-images.githubusercontent.com/30681841/145768444-31c1fab6-ea3d-494f-aa2c-4c118b469f3c.PNG)
+![슬라이드2](https://user-images.githubusercontent.com/30681841/145768447-75250ceb-1e4a-4ed8-be88-78306be9f6d4.PNG)
+![슬라이드3](https://user-images.githubusercontent.com/30681841/145768449-3ddc727b-8643-48f4-8523-9c1fec4b6e74.PNG)
+![슬라이드4](https://user-images.githubusercontent.com/30681841/145768451-e52dcadb-310f-4d64-ab1f-20c8e2c9d033.PNG)
+![슬라이드5](https://user-images.githubusercontent.com/30681841/145768453-65b3f4d1-2b94-46a5-9d26-fb3909634fe3.PNG)
+![슬라이드6](https://user-images.githubusercontent.com/30681841/145768456-a6109a05-439a-40b0-8c1b-266556c01642.PNG)
+![슬라이드7](https://user-images.githubusercontent.com/30681841/145768457-5b20fbc9-21d1-4203-802e-eb661e0dee36.PNG)
+![슬라이드8](https://user-images.githubusercontent.com/30681841/145768458-1389fe5b-3ac2-4868-a493-39fd70effa47.PNG)
+![슬라이드9](https://user-images.githubusercontent.com/30681841/145768460-5a3ae0d1-a4d7-4d54-bc37-1e8bf668c27a.PNG)
