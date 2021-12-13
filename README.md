@@ -383,7 +383,7 @@ create table sns.user(
 # 프론트엔드 설계 
 
 
-![슬라이드1](https://user-images.githubusercontent.com/30681841/145768444-31c1fab6-ea3d-494f-aa2c-4c118b469f3c.PNG)
+![image](https://user-images.githubusercontent.com/30681841/145768878-a4c42fe4-39fd-46dc-b054-6e2aa73c0dcf.png)
 ![슬라이드2](https://user-images.githubusercontent.com/30681841/145768447-75250ceb-1e4a-4ed8-be88-78306be9f6d4.PNG)
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145768449-3ddc727b-8643-48f4-8523-9c1fec4b6e74.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145768451-e52dcadb-310f-4d64-ab1f-20c8e2c9d033.PNG)
