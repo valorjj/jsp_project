@@ -291,6 +291,8 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 
 > 프론트 : html, css, javascript, bootstrap, node.js
 
+cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다. 
+
 ---
 
 ### 깃허브를 활용한 개발 전략 : 
@@ -312,9 +314,6 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![image](https://user-images.githubusercontent.com/30681841/145717758-438ed0f7-224c-4dd2-90d1-7a794f5c8912.png)
 
 
-
-
-
 ---
 
 # 디자인 규칙 : 
@@ -322,8 +321,6 @@ https://www.youtube.com/watch?v=nolm4wq0Wr4
 ![image](https://user-images.githubusercontent.com/30681841/145705958-a9dac8c0-4540-4fbf-b0e7-57f38817d5bc.png)
 ![image](https://user-images.githubusercontent.com/30681841/145705993-e67109a2-3a3b-40ae-8b06-9e7b0a6d8f09.png)
 ![image](https://user-images.githubusercontent.com/30681841/145705986-2bfb93f8-1331-47c1-9aef-6b68e93a1e0c.png)
-
-
 
 
 ---
@@ -408,10 +405,10 @@ create table sns.user(
 # 컨트롤러 정리 
 
 
-1. 로그인 페이지  
-1.1 로그인 컨트롤러
-1.2 회원가입 컨트롤러
-1.3 비밀번호 찾기 컨트롤러
+1. 로그인 페이지 : loginPage.jsp
+1.1 로그인 컨트롤러 : LogInController.jsp
+1.2 회원가입 컨트롤러 : SignUpController.jsp
+1.3 비밀번호 찾기 컨트롤러 : FindPasswordController.jsp
 
 2. 메인 페이지   
 2.1 검색 컨트롤러 (Modal 창 띄우기)
