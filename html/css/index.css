@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 /* 웰컴체 Bold */
 @font-face {
@@ -67,7 +67,7 @@ div[class~="border"] {
 }
 
 .homeleft {
-position: relative;
+  position: relative;
 }
 
 .phone-img {
@@ -177,7 +177,6 @@ position: relative;
   }
 
   /* 메인 */
-
   .wrap .maincontainer {
     max-width: 940px;
   }
