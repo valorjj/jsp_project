@@ -1,5 +1,23 @@
 /* @charset "UTF-8";
 
+/* 웰컴체 Bold*/
+@font-face {
+  font-family: "OTWelcomeBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 웰컴체 Ragular*/
+@font-face {
+  font-family: "OTWelcomeRA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 전체설정 reset 초기화 */
 * {
   margin: 0;
