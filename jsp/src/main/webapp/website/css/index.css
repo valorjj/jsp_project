@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* 부트스트랩 작성시 참고
+
+그리드 gap
+<div class="grid" style="row-gap: 0;">
+
+// 간격
+ <div class="row gx-3 gy-3">
+
+flex-row
+flex-column
+d-flex justify-content-center
+d-flex align-items-center // 1줄
+align-content-center // 2줄
+align-self-center // 하위 아이템
+
+// 가운데정렬
+부모 - position-relative
+자식 - position-absolute top-50 start-50 translate-middle
+자식 - 
+ top: 50%; left: 50%; transform: translate(-50%, -50%)
+
+
+이미지1 - <img class="rounded mx-auto d-block">
+이미지2
+<div class="text-center">
+  <img src="..." class="rounded" alt="...">
+</div>
+ */
+
+/* 웰컴체 Bold */
+@font-face {
+	font-family: "OTWelcomeBA";
+	src:
+		url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2")
+		format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 웰컴체 Ragular */
+@font-face {
+	font-family: "OTWelcomeRA";
+	src:
+		url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2")
+		format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* reset 초기화설정 */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ul, ol, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	font-family: "OTWelcomeRA";
+}
+
+/* 작업편의용 : 향후 삭제 */
+div[class~="border"] {
+	
+}
+
+/* 공통설정 */
+
+/* 미디어쿼리1 (320 - 575) : mobile - col- */
+@media ( max-width : 575px) {
+	.wrap {
+		border: solid 5px red;
+	}
+	.left {
+		display: none;
+	}
+}
+
+/* 미디어쿼리2 (576 - 767) : tablet - col-sm */
+@media ( min-width : 576px) and (max-width : 767px) {
+	.wrap {
+		border: solid 5px green;
+	}
+	.left {
+		display: none;
+	}
+}
+
+/* 미디어쿼리3 (768 - 991) : pc - col-md */
+@media ( min-width : 768px) and (max-width : 991px) {
+	.wrap {
+		border: solid 5px blue;
+	}
+	.left {
+		background-image:
+			url(https://www.instagram.com/static/images/homepage/home-phones.png/38825c9d5aa2.png);
+		background-size: 270px;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 360px;
+	}
+	.left {
+		position: relative;
+	}
+	.left .carousel {
+		position: absolute;
+		top: 50.8%;
+		left: 59.5%;
+		transform: translate(-50%, -50%)
+	}
+	.sliderimage {
+		transform: scale(0.6);
+	}
+}
+
+/* 미디어쿼리4 (992 - 1348): wide-pc - col-lg */
+@media ( min-width : 992px) /*(max-width : 1348px)*/ {
+	.wrap {
+		border: solid 5px gold;
+	}
+	.left {
+		background-image:
+			url(https://www.instagram.com/static/images/homepage/home-phones.png/38825c9d5aa2.png);
+		background-size: 450px;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px;
+	}
+	.left {
+		position: relative;
+	}
+	.left .carousel {
+		position: absolute;
+		top: 50.8%;
+		left: 59.5%;
+		transform: translate(-50%, -50%)
+	}
+}
