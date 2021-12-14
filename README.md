@@ -362,7 +362,17 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 
 
 
-![image](https://user-images.githubusercontent.com/30681841/145957146-aa7a376b-b9e3-458b-b3a3-a6d23b606e4f.png)
+![image](https://user-images.githubusercontent.com/30681841/145957956-02892a35-1f95-4b71-b1bb-fe550eba8084.png)
+![image](https://user-images.githubusercontent.com/30681841/145958054-b578d944-f9fd-4a0a-85db-375cf18c94ae.png)
+![image](https://user-images.githubusercontent.com/30681841/145958084-3a080d5b-89e4-435b-ba6f-80af5f72cfdf.png)
+![image](https://user-images.githubusercontent.com/30681841/145958096-3e20cb7c-691f-47c0-8688-2f6f837dbe18.png)
+![image](https://user-images.githubusercontent.com/30681841/145958113-a276f134-a565-4573-9f13-ce3d44bd5188.png)
+![image](https://user-images.githubusercontent.com/30681841/145958136-5fc26295-98be-4d5c-980f-a12c8edfbc25.png)
+![image](https://user-images.githubusercontent.com/30681841/145958159-bbe5632e-fe08-485f-9445-20282205075a.png)
+![image](https://user-images.githubusercontent.com/30681841/145958172-7d44b2f8-5263-465c-b378-ed56644f8450.png)
+![image](https://user-images.githubusercontent.com/30681841/145958185-dc003f70-a230-46f7-a9a0-8bda558b51b9.png)
+![image](https://user-images.githubusercontent.com/30681841/145958202-1630cbeb-8104-403b-90cf-e3178829d1c5.png)
+
 
 # 프론트엔드 설계 
 
