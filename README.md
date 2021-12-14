@@ -360,18 +360,17 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145669630-bc1cd539-8135-40e8-8e43-28a54d980510.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
+![image](https://user-images.githubusercontent.com/30681841/145960461-c76b7c3f-3d94-4cfd-a49a-7d2318f97097.png)
+![image](https://user-images.githubusercontent.com/30681841/145960488-94fd050c-5f6e-4c7a-9d63-bfff22137a0e.png)
+![image](https://user-images.githubusercontent.com/30681841/145960510-c7767943-1f0c-4756-a44c-9e04888d0c8e.png)
+![image](https://user-images.githubusercontent.com/30681841/145960551-8a098adc-39e9-447f-becd-3005568fda91.png)
+![image](https://user-images.githubusercontent.com/30681841/145960588-c6e5c0cc-3146-4ce5-b9a6-d6dd8d0e7179.png)
+![image](https://user-images.githubusercontent.com/30681841/145960702-8e611ce7-b986-4790-ad92-695a35fe2a55.png)
+![image](https://user-images.githubusercontent.com/30681841/145960722-730bbca6-3237-4e21-b470-c0357fa45d35.png)
+![image](https://user-images.githubusercontent.com/30681841/145960751-7c1739c2-34bf-48b2-9ea8-b26a4032537e.png)
+![image](https://user-images.githubusercontent.com/30681841/145960810-a22bd2c6-2db9-4035-93cb-8e3e2c75c449.png)
+![image](https://user-images.githubusercontent.com/30681841/145960824-5cc7e4d9-b65c-4e3b-ba46-479161cf083f.png)
 
-
-
-![image](https://user-images.githubusercontent.com/30681841/145958054-b578d944-f9fd-4a0a-85db-375cf18c94ae.png)
-![image](https://user-images.githubusercontent.com/30681841/145958084-3a080d5b-89e4-435b-ba6f-80af5f72cfdf.png)
-![image](https://user-images.githubusercontent.com/30681841/145958096-3e20cb7c-691f-47c0-8688-2f6f837dbe18.png)
-![image](https://user-images.githubusercontent.com/30681841/145958113-a276f134-a565-4573-9f13-ce3d44bd5188.png)
-![image](https://user-images.githubusercontent.com/30681841/145958136-5fc26295-98be-4d5c-980f-a12c8edfbc25.png)
-![image](https://user-images.githubusercontent.com/30681841/145958159-bbe5632e-fe08-485f-9445-20282205075a.png)
-![image](https://user-images.githubusercontent.com/30681841/145958172-7d44b2f8-5263-465c-b378-ed56644f8450.png)
-![image](https://user-images.githubusercontent.com/30681841/145958185-dc003f70-a230-46f7-a9a0-8bda558b51b9.png)
-![image](https://user-images.githubusercontent.com/30681841/145958202-1630cbeb-8104-403b-90cf-e3178829d1c5.png)
 
 
 
