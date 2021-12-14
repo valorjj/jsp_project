@@ -510,4 +510,10 @@ create table sns.user(
 랜덤 피드 페이지 | / | randomFeedPage.jsp | 유저들이 등록한 글을 날짜순으로 랜덤하게 출력한다. |
 랜덤 피드 페이지 | 게시글 정보를 날짜 순으로 가져오기 | randomFeedController.jsp | (일단은) 팔로우 여부 관계없이 시간순으로 가장 최근 포스팅 된 게시물 부터 가져온다. 배치는 3 * 3 인데 작은 타일이 아닌 큰 타일도 출력할 수 있게 끔 할 수 있는 방법을 찾아봐야한다. |
 
-# 
+# 폴더 구조 
+
+![image](https://user-images.githubusercontent.com/30681841/145931639-04933e6c-9066-49c4-b00f-be26e468e2f1.png)
+![image](https://user-images.githubusercontent.com/30681841/145931653-720a08b0-7041-4b4d-90e7-ded9e8dce666.png)
+
+
+
