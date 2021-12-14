@@ -406,12 +406,11 @@ create table sns.user(
 
 * jsp : Camel 규칙 적용하겠습니다. 첫 단어는 소문자로 시작, 이어지는 단어는 대문자 시작. 
 
-
 ## 컨트롤러 : 로그인 페이지
 
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
-로그인페이지 | - | loginPage.jsp | 로그인 화면(회원가입, 비밀번호찾기, 가능하면 카카오톡 연동) |
+로그인페이지 | / | loginPage.jsp | 로그인 화면(회원가입, 비밀번호찾기, 가능하면 카카오톡 연동) |
 로그인페이지 | 로그인 컨트롤러 | logInController.jsp | 아이디, 비밀번호 입력받고 db 조회 후 session 값 부여 |
 로그인페이지 | 회원가입 컨트롤러 | signUpController.jsp | 아이디, 비밀번호, 이름, 번호, 이메일, 성별, 나이 입력 |
 로그인페이지 | 비밀번호찾기 컨트롤러 | findPasswordController.jsp | 비밀번호 찾으면 새로운 비밀번호 부여(난수 생성) | 
@@ -420,16 +419,15 @@ create table sns.user(
 
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
-메인 페이지 | - | mainPage.jsp | 게시물과 헤더가 표시되는 메인 화면 |
-메인 페이지 | 검색 컨트롤러(헤더) | searchController.jsp | 해시태그 혹은 키워드 검색 후 결과창 출력 |
-메인 페이지 | DM(쪽지 보내기) 컨트롤러 | dmController.jsp | 다른 계정에게 쪽지 보내기 |
-메인 페이지 | 랜덤피드 출력 컨트롤러 | randomFeedController.jsp | 난수 생성해서 랜덤하게 게시글 출력 |
-메인 페이지 | 포스트 작성 컨트롤러 | createPostController.jsp | 포스트 작성하며 이미지, 내용, 해시태그 db 와 연동 |
-메인 페이지 | 내 계정 컨트롤러 | myInfoController.jsp | 내 계정 정보를 db에서 불러와서 오른쪽 사이드에 프로필 사진과 계정명 출력 | 
-메인 페이지 | 좋아요 컨트롤러 | likeController.jsp | 내 포스트나 댓글에 좋아요 혹은 팔로우 기록이 있으면 시간 순서대로 출력 |
+메인 페이지 | / | mainPage.jsp | 게시물과 헤더가 표시되는 메인 화면 |
+메인 페이지 | 검색 컨트롤러(헤더) | mainSearchController.jsp | 해시태그 혹은 키워드 검색 후 결과창 출력 |
+메인 페이지 | DM(쪽지 보내기) 컨트롤러 | mainDMController.jsp | 다른 계정에게 쪽지 보내기 |
+메인 페이지 | 랜덤피드 출력 컨트롤러 | mainRandomFeedController.jsp | 난수 생성해서 랜덤하게 게시글 출력 |
+메인 페이지 | 포스트 작성 컨트롤러 | mainCreatePostController.jsp | 포스트 작성하며 이미지, 내용, 해시태그 db 와 연동 |
+메인 페이지 | 내 계정 컨트롤러 | mainMyInfoController.jsp | 내 계정 정보를 db에서 불러와서 오른쪽 사이드에 프로필 사진과 계정명 출력 | 
+메인 페이지 | 좋아요 컨트롤러 | mainLikeController.jsp | 내 포스트나 댓글에 좋아요 혹은 팔로우 기록이 있으면 시간 순서대로 출력 |
 메인 페이지 | 게시글 출력 컨트롤러 | mainPostController.jsp | 메인 화면에 나타날 게시글을 출력하는 컨트롤러(친구들이 올린 포스트 시간순서대로) |
-메인 페이지 | 랜덤 게시글 출력 컨트롤러 | randomSidePostController.jsp | db에 저장된 포스트 중 랜덤하게 골라서 사진만 오른쪽 사이드에 출력 | 
-
+메인 페이지 | 랜덤 게시글 출력 컨트롤러 | mainRandomSidePostController.jsp | 랜덤 포스트를 오른쪽 사이드에 출력 (db 연동)| 
 
 
 ## 컨트롤러 : 프로필 페이지 (본인 계정) 
@@ -437,9 +435,9 @@ create table sns.user(
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
 프로필 페이지 | - | myProfilePage.jsp | 내 계정 정보와 포스트 출력하는 페이지 |
-프로필 페이지 | 내 계정 정보 컨트롤러 | myInfoControllerController.jsp | 메인 페이지에 있는 것과 동일 |
-프로필 페이지 | 프로필 편집 컨트롤러 | profileUpdateController.jsp | 프로필 편집 창 띄워서 정보 수정 |
-프로필 페이지 | 게시글 출력 컨트롤러 | myPostController.jsp | 내가 올린 게시글 화면에 출력 |
+프로필 페이지 | 내 계정 정보 컨트롤러 | myInfoControllerController.jsp | 메인 페이지에 있는 것과 동일 (db 연동)|
+프로필 페이지 | 프로필 편집 컨트롤러 | myProfileUpdateController.jsp | 프로필 편집 창 띄워서 정보 수정 |
+프로필 페이지 | 게시글 출력 컨트롤러 | myPostController.jsp | 내가 올린 게시글 화면에 출력 (db 연동)|
 
 
 ## 컨트롤러 : 프로필 페이지 (다른 사람 계정)
@@ -447,8 +445,8 @@ create table sns.user(
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
 프로필 페이지(타인) | - | profilePage.jsp | 다른 사람 계정 정보와 포스트 출력하는 페이지 |
-프로필 페이지(타인) | 계정 정보 컨트롤러 | yourInfoController.jsp | 다른 사람 계정 정보를 표시한다(프로필 편집을 빼고 팔로우를 추가) | 
-프로필 페이지(타인) | 게시글 출력 컨트롤러 | yourPostController.jsp | 다른 사람이 올린 게시글 화면에 출력 |
+프로필 페이지(타인) | 계정 정보 컨트롤러 | yourProfileController.jsp | 다른 사람 계정 정보를 표시한다(프로필 편집을 빼고 팔로우를 추가) (db 연동)| 
+프로필 페이지(타인) | 게시글 출력 컨트롤러 | yourPostController.jsp | 다른 사람이 올린 게시글 화면에 출력 (db 연동)|
 
 
 ## 컨트롤러 : DM 페이지 (쪽지 보내기 페이지)
@@ -456,7 +454,7 @@ create table sns.user(
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
 쪽지 페이지 | - | dmPage.jsp | 다른 사람에게 쪽지 보내는 페이지 | 
-쪽지 페이지 | 기존 정보 불러오기 | dmConfigureController.jsp | db에 저장되어있는 쪽지 정보를 불러오기 |
+쪽지 페이지 | 기존 정보 불러오기 | dmConfigureController.jsp | 쪽지 정보를 불러오기 (db 연동)|
 쪽지 페이지 | 쪽지 보내기 | dmSendController.jsp | 다른 계정에게 쪽지 전송(사진은 제외하고 텍스트만) | 
 
 ## 컨트롤러 : 글 작성 페이지 
@@ -468,14 +466,12 @@ create table sns.user(
 게시글 작성 페이지 | 글 내용 작성 | createPostContentControlle.jsp | 내용, 해시태그 작성 |
 
 
-
-
 ## 컨트롤러 : 좋아요 윈도우 (Modal 창을 띄울 예정) 
 
 페이지 | 컨트롤러 | 파일명 | 역할 |
 --- | --- | --- | --- |
-좋아요 윈도우 | - | likeWindow.jsp | 최근 댓글, 게시글에 좋아요 누른 계정이나 팔로우한 계정 알림 창 |
-좋아요 윈도우 | 좋아요 정보 가져오기 | likeWindowController.jsp | DB에서 좋아요 정보(댓글, 게시글, 팔로우) 불러오는 컨트롤러 |
+좋아요 윈도우 | - | likeWindow.jsp | 최근 댓글, 게시글에 좋아요 누른 계정이나 팔로우한 계정 알림 창 (db 연동) |
+좋아요 윈도우 | 좋아요 정보 가져오기 | likeWindowController.jsp | 좋아요 정보(댓글, 게시글, 팔로우) 불러오는 컨트롤러 (db 연동) |
 
 
 ## 컨트롤러 : 검색 창 (헤더)
@@ -485,19 +481,32 @@ create table sns.user(
 검색 창 | - | searchInput.jsp | 헤더에 위치한 검색 창. 키워드 & 해시태그 검색 후 결과 출력 
 검색 창 | 텍스트 입력받고 결과 출력 | searchInputController.jsp | 
 
-8. 검색 창  
-8.1 해시태그 or 키워드 불러오는 컨트롤러
+## 컨트롤러 : 프로필 수정
 
-9. 프로필 편집  
-9.1 계정 정보 업데이트 컨트롤러
+페이지 | 컨트롤러 | 파일명 | 역할 |
+--- | --- | --- | --- |
+프로필 수정 페이지 | / | profileUpdatePage.jsp | 로그인된 계정 정보를 편집하는 페이지 |
+프로필 수정 페이지 | 계정 정보 업데이트 | profileUpdateController.jsp | 아이디, 이름, 전화번호 등의 정보를 업데이트 (db 연동) |
 
-10. 대댓글창  
-10.1 리플 출력 컨트롤러
-10.2 리플 등록 컨트롤러
-10.3 리플 삭제 컨트롤러
-10.4 좋아요 컨트롤러
-10.5 이미지 출력 컨트롤러
+## 컨트롤러 : 대댓글 창이 포함된 게시글 출력하는 페이지(메인 페이지의 게시글이랑 다름. 유저 계정에 들어가서 정사각형 사진을 누르면 뜨는 창)
 
-11. 랜덤 피드   
-11.1 (난수 이용해서) 랜덤한 이미지 출력 컨트롤러
+페이지 | 컨트롤러 | 파일명 | 역할 |
+--- | --- | --- | --- |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | / | mainPostPage.jsp | 계정 정보에서 정사각형 게시글을 클릭하면 팝업되는 창 |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 사진 가져오기 | mainPostImageLoadController.jsp | 이미지를 가져와서 출력 (db 연동) |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 내용, 댓글, 좋아요 가져오기 | mainPostContentLoadController.jsp | 이미지를 제외한 정보를 가져온다. |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 댓글 달기 | mainPostCreateCommentController.jsp | 해당 포스트에 댓글을 작성 |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 댓글 삭제 | mainPostDeleteCommentController.jsp | 해당 포스트에 작성된 댓글 삭제 |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 댓글 수정 | mainPostUpdateCommentController.jsp | 해당 포스트에 작성된 댓글 수정 |
+사진 클릭하면 뜨는 대댓글이 포함된 페이지 출력 | 좋아요 | mainPostLikeController.jsp | 해당 포스트 좋아요를 누르거나 취소하거나를 db에 반영 |
+
+
+(* 이미지를 댓글과 따로 가져오는 이유는 추후 댓글을 제외한 이미지 단독 공유 기능을 추가할 수도 있기 때문에 따로 분류해두었습니다.)
+
+## 컨트롤러 : 랜덤 피드 
+
+페이지 | 컨트롤러 | 파일명 | 역할 |
+--- | --- | --- | --- |
+랜덤 피드 페이지 | / | randomFeedPage.jsp | 유저들이 등록한 글을 날짜순으로 랜덤하게 출력한다. |
+랜덤 피드 페이지 | 게시글 정보를 날짜 순으로 가져오기 | randomFeedController.jsp | (일단은) 팔로우 여부 관계없이 시간순으로 가장 최근 포스팅 된 게시물 부터 가져온다. 배치는 3 * 3 인데 작은 타일이 아닌 큰 타일도 출력할 수 있게 끔 할 수 있는 방법을 찾아봐야한다. |
 
