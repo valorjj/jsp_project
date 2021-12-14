@@ -513,4 +513,4 @@ create table sns.user(
 # 폴더 구조 
 
 ![image](https://user-images.githubusercontent.com/30681841/145931933-d53e8ecb-ddab-4728-b627-2798d5f7210d.png)
-![image](https://user-images.githubusercontent.com/30681841/145932122-4998d726-7f97-4288-bd95-d6fe45781178.png)
+![image](https://user-images.githubusercontent.com/30681841/145934583-0c2335ac-39c2-46d8-a37b-5e0f9d0d267a.png)
