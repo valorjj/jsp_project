@@ -360,22 +360,9 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145669630-bc1cd539-8135-40e8-8e43-28a54d980510.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
-``` 
-create table sns.user(
-	
-    user_no int auto_increment primary key ,
-    user_id varchar(30) ,
-    user_password varchar(50) ,
-    user_email varchar(80) ,
-    user_phone varchar(30) ,
-    user_name varchar(30) ,
-    user_gender varchar(20) ,
-    user_age int ,
-    user_date datetime default now() 
 
-)
-```
 
+![image](https://user-images.githubusercontent.com/30681841/145957146-aa7a376b-b9e3-458b-b3a3-a6d23b606e4f.png)
 
 # 프론트엔드 설계 
 
