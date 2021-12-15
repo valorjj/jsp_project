@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< HEAD
       "name": "Launch header.html",
       "type": "chrome",
       "request": "launch",
@@ -18,6 +19,14 @@
       "port": 9224,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:58161/p/jsp_project/html/view/header.html?_cmAuth\u003djegechkibm"
+=======
+      "name": "Launch Chrome 127.0.0.1",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9239,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:58161/p/jsp_project/html/view/home.html?_cmAuth\u003djegechkibm"
+>>>>>>> branch 'kth' of https://github.com/valorjj/jsp_project
     }
   ]
 }

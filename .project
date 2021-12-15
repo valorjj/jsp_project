@@ -5,7 +5,18 @@
 	<projects>
 	</projects>
 	<buildSpec>
+<<<<<<< HEAD
 	</buildSpec>
 	<natures>
+=======
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+>>>>>>> branch 'kth' of https://github.com/valorjj/jsp_project
 	</natures>
 </projectDescription>
