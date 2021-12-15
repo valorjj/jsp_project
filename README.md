@@ -374,27 +374,20 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 
 # 프론트엔드 설계 
 
-![슬라이드1](https://user-images.githubusercontent.com/30681841/145778541-66123fd3-8b65-4939-bc11-3f32bcb89f05.PNG)
-![image](https://user-images.githubusercontent.com/30681841/145781838-1d1b42d4-c1d1-46e3-9c99-5d6994f6f9d8.png)
-![슬라이드3](https://user-images.githubusercontent.com/30681841/145778552-3f45a00d-2f28-47f1-a497-7f02bfaa4709.PNG)
-![슬라이드4](https://user-images.githubusercontent.com/30681841/145778554-81869167-7caa-4a6a-8ca5-7162323e89dc.PNG)
-![슬라이드5](https://user-images.githubusercontent.com/30681841/145778556-a39c871c-7edc-49c8-bbb0-4e91949c707e.PNG)
-![슬라이드6](https://user-images.githubusercontent.com/30681841/145778557-d864d99f-4844-4d62-a161-fbfb67a261ee.PNG)
-![슬라이드7](https://user-images.githubusercontent.com/30681841/145778560-55cef019-5d1f-4288-8b62-15acb36d58af.PNG)
-![슬라이드8](https://user-images.githubusercontent.com/30681841/145778561-ed18d884-66f3-4aeb-bbb1-0eab0670fc89.PNG)
-![슬라이드9](https://user-images.githubusercontent.com/30681841/145778562-faf55fac-634a-41a7-a9ce-1ccf04fedf2d.PNG)
-![슬라이드10](https://user-images.githubusercontent.com/30681841/145778565-0ff5fb66-499e-4e1a-98d9-1fbfe5780df6.PNG)
-![슬라이드11](https://user-images.githubusercontent.com/30681841/145778567-77c2a646-84df-4bf7-9fd2-3c87187b5e92.PNG)
-![슬라이드12](https://user-images.githubusercontent.com/30681841/145778571-14cb29b8-59e9-4732-966c-44873e8b8f5f.PNG)
-![슬라이드13](https://user-images.githubusercontent.com/30681841/145778573-22b8a17a-4b91-4e02-b6a9-3b5ae90f201f.PNG)
-![슬라이드14](https://user-images.githubusercontent.com/30681841/145778574-66912d54-4268-4d76-9d0c-d88a5a83ee86.PNG)
-![슬라이드15](https://user-images.githubusercontent.com/30681841/145778575-c9b16f67-36bd-4199-aa54-69b206896708.PNG)
-![슬라이드16](https://user-images.githubusercontent.com/30681841/145778576-61a3b2bb-beb0-43de-baa9-eb7a86173556.PNG)
-![슬라이드17](https://user-images.githubusercontent.com/30681841/145778578-4ba2c20c-caa8-4d75-b62e-7efd96dddabf.PNG)
-![슬라이드18](https://user-images.githubusercontent.com/30681841/145778579-a4bf501b-8530-4d8c-8173-9b2135bbd74b.PNG)
-![슬라이드19](https://user-images.githubusercontent.com/30681841/145778581-ad581640-ef31-491d-a754-b0ce98bc5216.PNG)
-![슬라이드20](https://user-images.githubusercontent.com/30681841/145778583-7963eddc-447f-46fc-8156-c1aab7786994.PNG)
-![슬라이드21](https://user-images.githubusercontent.com/30681841/145778587-de8a9154-ef5b-4b98-8f3c-6c45d87c98fd.PNG)
+![image](https://user-images.githubusercontent.com/30681841/146121095-5fec0b59-3bca-4802-a972-2bbbda911cd9.png)
+![image](https://user-images.githubusercontent.com/30681841/146121117-cc3d15f3-6550-4ed8-ac3c-319b85d3e1a9.png)
+![image](https://user-images.githubusercontent.com/30681841/146121135-aa0b887a-6611-47cd-beba-5612b1cfd5b1.png)
+![image](https://user-images.githubusercontent.com/30681841/146121150-a953baae-4a3e-4257-953e-1bf04c6ac601.png)
+![image](https://user-images.githubusercontent.com/30681841/146121167-5ea95bb3-1da3-4a3c-a8ee-03a7002b595a.png)
+![image](https://user-images.githubusercontent.com/30681841/146121180-4bc862b4-ab55-4891-a355-9302aaccf644.png)
+![image](https://user-images.githubusercontent.com/30681841/146121192-57242bb0-cbde-41d5-aedf-88a0c022f0c3.png)
+![image](https://user-images.githubusercontent.com/30681841/146121209-a6a92535-092c-4380-bea6-8b8afd18c27b.png)
+![image](https://user-images.githubusercontent.com/30681841/146121219-46771938-e158-469a-99fc-c915797947ba.png)
+![image](https://user-images.githubusercontent.com/30681841/146121278-dcf7e680-75dd-4944-9077-da497f388060.png)
+![image](https://user-images.githubusercontent.com/30681841/146121288-86f9eb26-d5c7-4093-a285-4c0d8e6048a8.png)
+![image](https://user-images.githubusercontent.com/30681841/146121299-2b42e26a-d0bd-48da-b300-fd109e64edec.png)
+
+
 
 ---
 
