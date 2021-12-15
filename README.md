@@ -359,53 +359,55 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
 
-![image](https://user-images.githubusercontent.com/30681841/146134042-fd0fe05a-54c8-4f34-84b7-544e7267f495.png)
+## 전체
 
-
-## (수정 전 초안 first draft)
-
-![image](https://user-images.githubusercontent.com/30681841/145960461-c76b7c3f-3d94-4cfd-a49a-7d2318f97097.png)
-
-## (수정 후1 : pk 정리, 대댓글 테이블 추가)
-
-![image](https://user-images.githubusercontent.com/30681841/146131777-8e74f9f5-00c8-4764-9d36-7ed4ed6e4d92.png)
+![image](https://user-images.githubusercontent.com/30681841/146142713-1918f192-1ab7-41ff-9544-a72ea699e09c.png)
 
 ### user 테이블 기준 
 
-![image](https://user-images.githubusercontent.com/30681841/146131829-281d4ebd-a715-47ba-b3a5-b58f4d0b5dd8.png)
+![image](https://user-images.githubusercontent.com/30681841/146142742-5de685c5-469e-462d-820c-78821172098f.png)
 
 ### post 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146131851-9f319b52-4143-4e60-b7f7-b4583e0c2c2e.png)
+![image](https://user-images.githubusercontent.com/30681841/146142799-2ef230a6-ae9b-470c-b464-fb51d294e037.png)
 
 ### comment 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146131877-bb183e6e-5c86-415a-a159-8738a4edf405.png)
-
-### comment_children 테이블 기준
-
-![image](https://user-images.githubusercontent.com/30681841/146132191-b5e395a6-8310-4238-8d2c-812905e12aad.png)
-
+![image](https://user-images.githubusercontent.com/30681841/146142818-dbf199f2-28b3-4334-9372-8a60b29a900e.png)
 
 ### hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146131913-1937e877-a48f-452c-ab8a-06919740c08d.png)
+![image](https://user-images.githubusercontent.com/30681841/146142830-f66492c1-c7bb-43cc-a20b-0c0d4a27bebf.png)
 
 ### like 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146131949-857e6056-5d00-476d-96a7-4dbdd5788907.png)
+![image](https://user-images.githubusercontent.com/30681841/146142846-723e2d65-5619-411a-a139-a0a21f2c846c.png)
+
+### medias 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146142881-0581b291-afbc-460e-a831-5e9d7cb3fb39.png)
 
 ### post_media 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146132001-ff8c20be-7a01-4b51-b64e-46c7e313e941.png)
+![image](https://user-images.githubusercontent.com/30681841/146142908-c98108e9-a819-4f1f-8d48-624b0fa17ec9.png)
 
 ### post_hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146132051-7e3ed931-647b-445f-844d-06e60722d1c2.png)
+![image](https://user-images.githubusercontent.com/30681841/146142935-ce03a82f-48c1-4431-83fe-07a28ded4a2c.png)
 
 ### comment_hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146132128-c30173bc-cea3-4cf7-a323-87dabfcfa19a.png)
+![image](https://user-images.githubusercontent.com/30681841/146142960-32191720-f8d0-4ed8-bbfc-861f367339a5.png)
+
+### follow 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146143034-21c60349-c335-48de-a83b-aee8da217991.png)
+
+### tagged_user 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146143114-eaf85228-5f77-4555-8062-0c5f2816be8e.png)
+
+
 # 프론트엔드 설계 
 
 ![image](https://user-images.githubusercontent.com/30681841/146121095-5fec0b59-3bca-4802-a972-2bbbda911cd9.png)
