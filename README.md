@@ -362,12 +362,46 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 
 ![image](https://user-images.githubusercontent.com/30681841/145960461-c76b7c3f-3d94-4cfd-a49a-7d2318f97097.png)
 
-## (수정 후1 : pk 없던 테이블에 pk추가 + 대댓글 테이블 추가한 수정 본1)
+## (수정 후1 : pk 정리, 대댓글 테이블 추가)
 
-![image](https://user-images.githubusercontent.com/30681841/146123117-8befdae8-1fd3-40f5-a65e-39238421690e.png)
+![image](https://user-images.githubusercontent.com/30681841/146131777-8e74f9f5-00c8-4764-9d36-7ed4ed6e4d92.png)
+
+### user 테이블 기준 
+
+![image](https://user-images.githubusercontent.com/30681841/146131829-281d4ebd-a715-47ba-b3a5-b58f4d0b5dd8.png)
+
+### post 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146131851-9f319b52-4143-4e60-b7f7-b4583e0c2c2e.png)
+
+### comment 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146131877-bb183e6e-5c86-415a-a159-8738a4edf405.png)
+
+### comment_children 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146132191-b5e395a6-8310-4238-8d2c-812905e12aad.png)
 
 
+### hashtag 테이블 기준
 
+![image](https://user-images.githubusercontent.com/30681841/146131913-1937e877-a48f-452c-ab8a-06919740c08d.png)
+
+### like 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146131949-857e6056-5d00-476d-96a7-4dbdd5788907.png)
+
+### post_media 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146132001-ff8c20be-7a01-4b51-b64e-46c7e313e941.png)
+
+### post_hashtag 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146132051-7e3ed931-647b-445f-844d-06e60722d1c2.png)
+
+### comment_hashtag 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146132128-c30173bc-cea3-4cf7-a323-87dabfcfa19a.png)
 # 프론트엔드 설계 
 
 ![image](https://user-images.githubusercontent.com/30681841/146121095-5fec0b59-3bca-4802-a972-2bbbda911cd9.png)
@@ -534,7 +568,6 @@ db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 �
 2. 로그인 한 유저 아이디 (user_id) 
 
 # 코드 구현 정리 ( 자주 쓰이거나 중요한 코드 정리 ) 
-
 
 
 
