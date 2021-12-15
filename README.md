@@ -358,17 +358,11 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145669630-bc1cd539-8135-40e8-8e43-28a54d980510.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
+(수정 중)
 ![image](https://user-images.githubusercontent.com/30681841/145960461-c76b7c3f-3d94-4cfd-a49a-7d2318f97097.png)
-![image](https://user-images.githubusercontent.com/30681841/145960488-94fd050c-5f6e-4c7a-9d63-bfff22137a0e.png)
-![image](https://user-images.githubusercontent.com/30681841/145960510-c7767943-1f0c-4756-a44c-9e04888d0c8e.png)
-![image](https://user-images.githubusercontent.com/30681841/145960551-8a098adc-39e9-447f-becd-3005568fda91.png)
-![image](https://user-images.githubusercontent.com/30681841/145960588-c6e5c0cc-3146-4ce5-b9a6-d6dd8d0e7179.png)
-![image](https://user-images.githubusercontent.com/30681841/145960702-8e611ce7-b986-4790-ad92-695a35fe2a55.png)
-![image](https://user-images.githubusercontent.com/30681841/145960722-730bbca6-3237-4e21-b470-c0357fa45d35.png)
-![image](https://user-images.githubusercontent.com/30681841/145960751-7c1739c2-34bf-48b2-9ea8-b26a4032537e.png)
-![image](https://user-images.githubusercontent.com/30681841/145960810-a22bd2c6-2db9-4035-93cb-8e3e2c75c449.png)
-![image](https://user-images.githubusercontent.com/30681841/145960824-5cc7e4d9-b65c-4e3b-ba46-479161cf083f.png)
 
+(pk 없던 테이블에 pk추가 + 대댓글 테이블 추가한 수정 본1)
+![image](https://user-images.githubusercontent.com/30681841/146122225-27c40c49-efa6-4bff-9f14-91bdfc463a7a.png)
 
 
 
