@@ -269,20 +269,6 @@ DB 설계 - Like | 유저 - 좋아요 | | 0% |
 
 ---
 
-### db 참고 
-
-![image](https://user-images.githubusercontent.com/30681841/145524480-34e53e05-c0a9-4552-8ae2-86cd31fc119e.png)   
-
-[db 참고1](https://velog.io/@seungsang00/Database-Instagram-%EC%8A%A4%ED%82%A4%EB%A7%88-%EB%94%94%EC%9E%90%EC%9D%B8)    
-
-![image](https://user-images.githubusercontent.com/30681841/145524639-bb5902a2-fc98-47ce-aa9e-cef086eb169e.png)  
-
-[db 참고2](https://user-images.githubusercontent.com/30681841/145524529-29106608-7f89-47ab-adbd-45b40057c236.png)  
-
-https://www.youtube.com/watch?v=nolm4wq0Wr4
-
----
-
 ## 개발 환경 : 
 
 > 백엔드 : mysql, eclipse EE 2021-09, jdk 1.8 
@@ -296,7 +282,6 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ### 깃허브를 활용한 개발 전략 : 
 
 > main - dev - feature branch 
-
 
 ---
 
