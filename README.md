@@ -358,10 +358,12 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145669630-bc1cd539-8135-40e8-8e43-28a54d980510.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
-(수정 중)
+## (수정 전 초안 first draft)
+
 ![image](https://user-images.githubusercontent.com/30681841/145960461-c76b7c3f-3d94-4cfd-a49a-7d2318f97097.png)
 
-(pk 없던 테이블에 pk추가 + 대댓글 테이블 추가한 수정 본1)
+## (수정 후1 : pk 없던 테이블에 pk추가 + 대댓글 테이블 추가한 수정 본1)
+
 ![image](https://user-images.githubusercontent.com/30681841/146122225-27c40c49-efa6-4bff-9f14-91bdfc463a7a.png)
 
 
