@@ -364,7 +364,7 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 
 ## (수정 후1 : pk 없던 테이블에 pk추가 + 대댓글 테이블 추가한 수정 본1)
 
-![image](https://user-images.githubusercontent.com/30681841/146122225-27c40c49-efa6-4bff-9f14-91bdfc463a7a.png)
+![image](https://user-images.githubusercontent.com/30681841/146123117-8befdae8-1fd3-40f5-a65e-39238421690e.png)
 
 
 
