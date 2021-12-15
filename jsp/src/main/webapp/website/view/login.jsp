@@ -22,11 +22,11 @@
 				</div>
 				<!-- 우측 -->
 				<div id="loginright" class="right col-md-5 col-sm-10 col-8 mx-100 border border-danger d-flex flex-column justify-content-center align-items-center">
-					<div class="loginbox bg-info p-2" style="width: 80%">
+					<div class="loginbox bg-info p-2 text-center" style="width: 80%">
 						<div class="logo text-center">
 							<a href=""> <img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
 						</div>
-						<form action="">
+						<form class="" action="" >
 							<input class="form-control my-3" type="text" placeholder=" 전화번호 사용자 이름 또는 이메일"> <input class="form-control my-3" type="password" placeholder=" 비밀번호">
 							<button class="btn-primary col-12 " type="button" style="cursor: pointer;">로그인</button>
 							<div class="searchpassword text-center text-center my-3">
@@ -35,7 +35,7 @@
 						</form>
 					</div>
 					<div class="signbox bg-info my-3 p-2 text-center" style="width: 80%">
-						계정이 없으신가요?<a href="#">가입하기</a>
+						계정이 없으신가요?<a href="./signup.jsp">가입하기</a>
 					</div>
 				</div>
 			</div>

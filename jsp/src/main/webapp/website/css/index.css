@@ -83,6 +83,11 @@ div[class~="border"] {
 
 /* 공통설정 */
 
+/* 회원가입 sinup */
+.signup {
+	width: 350px;
+}
+
 /* 미디어쿼리1 (320 - 575) : mobile - col- */
 @media ( max-width : 575px) {
 	.wrap {
@@ -90,6 +95,9 @@ div[class~="border"] {
 	}
 	.left {
 		display: none;
+	}
+	.signup {
+		width: 320px;
 	}
 }
 
