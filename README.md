@@ -359,6 +359,9 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드3](https://user-images.githubusercontent.com/30681841/145669630-bc1cd539-8135-40e8-8e43-28a54d980510.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
+![image](https://user-images.githubusercontent.com/30681841/146315400-390302ca-e1de-4ec5-ba4f-949d2b879eb5.png)
+
+
 
 ## 전체
 
@@ -594,7 +597,7 @@ db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 �
 
 ---
 
-  
+[추후 업데이트 바람]
   
 ---
 
