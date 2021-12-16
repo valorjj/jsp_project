@@ -6,8 +6,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- 스크립트/css/부트스트랩 호출 -->
 	<%@include file="./common.jsp"%>
+	<!-- 헤더 컨테이너 시작 -->
 	<div class="container">
+		<!-- 가로배치 -->
 		<div class="row d-flex col-12 justify-content-around align-items-center border-bottom" style="height: 60px">
 			<div class="logo border">
 				<a href=""> <img class="logo-img" style="width: 5rem;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
@@ -35,5 +38,6 @@
 			</div>
 		</div>
 	</div>
+	<!-- 헤더 컨테이너 종료 -->
 </body>
 </html>

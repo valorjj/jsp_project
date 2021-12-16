@@ -97,10 +97,19 @@ div[class~="border"] {
 	height: 1rem;
 }
 
+/* 푸터 */
+.footerrow ul li {
+	margin: 0 0.8rem;
+	color: #999;	
+}
+
+
+
 /* 미디어쿼리1 (320 - 575) : mobile - col- */
 @media ( max-width : 575px) {
 	.wrap {
 		border: solid 5px red;
+		font-family: "OTWelcomeRA";
 	}
 	.left {
 		display: none;
@@ -121,6 +130,7 @@ div[class~="border"] {
 @media ( min-width : 576px) and (max-width : 767px) {
 	.wrap {
 		border: solid 5px green;
+		font-family: "OTWelcomeRA";
 	}
 	.left {
 		display: none;
@@ -138,6 +148,7 @@ div[class~="border"] {
 @media ( min-width : 768px) and (max-width : 991px) {
 	.wrap {
 		border: solid 5px blue;
+		font-family: "OTWelcomeRA";
 	}
 	.left {
 		background-image:
@@ -165,6 +176,7 @@ div[class~="border"] {
 @media ( min-width : 992px) /*(max-width : 1348px)*/ {
 	.wrap {
 		border: solid 5px gold;
+		font-family: "OTWelcomeRA";
 	}
 	.left {
 		background-image:
