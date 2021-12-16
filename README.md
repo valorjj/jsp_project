@@ -578,7 +578,7 @@ db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 �
 유저가 검색한 키워드는 쿠키로 저장합니다. 검색창에 아무것도 없는 상태에서 마우스를 올리면 검색한 키워드, 해시태그 기록이 나옵니다. 
 
 
-![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png)
+<center> ![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png) </center>
 
 
 # 코드 구현 정리 ( 자주 쓰이거나 중요한 코드 정리 ) 
