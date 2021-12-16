@@ -574,7 +574,10 @@ db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 �
 2. 로그인 한 유저 아이디 (user_id) 
 
 ### cookie 처리 할 정보 
+
 유저가 검색한 키워드는 쿠키로 저장합니다. 검색창에 아무것도 없는 상태에서 마우스를 올리면 검색한 키워드, 해시태그 기록이 나옵니다. 
+
+
 ![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png)
 
 
@@ -587,4 +590,8 @@ db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 �
 [웹에서 다크모드 구현](https://marshall-ku.com/web/tips/%EC%9B%B9%EC%97%90%EC%84%9C-%EB%8B%A4%ED%81%AC-%EB%AA%A8%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)   
 [부트스트랩 참고 사이트](https://www.w3schools.com/bootstrap5/index.php)   
 [파이썬으로 구현한 인스타그램 클론코딩](https://chagokx2.tistory.com/73)   
-[mysql 에서 N : M 관계 구현하는 방법](https://siyoon210.tistory.com/26)   [
+[mysql 에서 N : M 관계 구현하는 방법](https://siyoon210.tistory.com/26)   
+[db 참고1](https://velog.io/@seungsang00/Database-Instagram-%EC%8A%A4%ED%82%A4%EB%A7%88-%EB%94%94%EC%9E%90%EC%9D%B8)    
+[db 참고2](https://user-images.githubusercontent.com/30681841/145524529-29106608-7f89-47ab-adbd-45b40057c236.png)  
+
+
