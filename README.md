@@ -547,10 +547,15 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![image](https://user-images.githubusercontent.com/30681841/145935060-696af7bd-9855-4321-ab23-5113f85e206a.png)  
 ![image](https://user-images.githubusercontent.com/30681841/145935075-8e39497f-321c-4b18-a77a-2372de1d48aa.png)
   
+---
 
 # DB 처리 vs File 처리 vs Session 처리 
 
-### 유저 간 주고 받는 쪽지 : File 처리 -> {$파일명}.txt 형태로 저장 
+---
+
+## 유저 간 주고 받는 쪽지 : File 처리 -> {$파일명}.txt 형태로 저장 
+
+---
 
 카카오톡 참고. 카카오톡 처럼 대화내용 내려받기는 제외하고 서버를 돌리는 local pc 에 저장되게끔 한다. (수업 시간에 했던 파일처리 부분 참고)
 
@@ -567,24 +572,35 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 > [김태호] [오후 4:15] 김태호 () 입니다    
 
 
-### session 처리 할 정보 
+---
+
+## session 처리 할 정보 
 db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 서버에 저장해 둘 데이터 목록 :
 
 1. 로그인 한 유저 번호 (user_no)
 2. 로그인 한 유저 아이디 (user_id) 
 
-### cookie 처리 할 정보 
+---
 
-유저가 검색한 키워드는 쿠키로 저장합니다. 검색창에 아무것도 없는 상태에서 마우스를 올리면 검색한 키워드, 해시태그 기록이 나옵니다. 
+## cookie 처리 할 정보 
+
+1. 유저가 검색한 키워드는 쿠키로 저장합니다. 검색창에 아무것도 없는 상태에서 마우스를 올리면 검색한 키워드, 해시태그 기록이 나옵니다. 
 
 
-<center> ![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png) </center>
+![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png)  
 
 
 # 코드 구현 정리 ( 자주 쓰이거나 중요한 코드 정리 ) 
 
+---
+
   
+  
+---
+
 # 참고 사이트
+
+---
 
 [인스타그램 클론코딩 프론트 설계 관련](https://velog.io/@eunjin/Javascript-Project%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9)  
 [웹에서 다크모드 구현](https://marshall-ku.com/web/tips/%EC%9B%B9%EC%97%90%EC%84%9C-%EB%8B%A4%ED%81%AC-%EB%AA%A8%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)   
