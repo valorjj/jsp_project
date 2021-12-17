@@ -1,0 +1,327 @@
+/* @charset "UTF-8";
+
+<<<<<<< HEAD
+/* 웰컴체 Bold*/
+@font-face {
+  font-family: "OTWelcomeBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 웰컴체 Ragular*/
+@font-face {
+  font-family: "OTWelcomeRA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 전체설정 reset 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrap {
+  text-align: center;
+  border: 1px solid black;
+}
+
+div[class~="border"] {
+}
+
+/*	
+            320px 이상 ~ 575px 이하 너비부터 red // col-xxs 
+            576px 이상 767px 이하 너비부터 green // col-xs 
+            768px 이상 너비부터 blue // col-sm 태블릿
+			992px 이상 너비부터 lime // col-md 데스크탑
+			1200px 이상 너비부터 orange // col-lg 큰화면 데크스탑
+		*/
+
+/* 기본 모바일 */
+@media (max-width: 575px) {
+  .wrap {
+    background-color: red;
+  }
+
+  div[class~="col-xxs"] {
+    min-width: 320px;
+    max-width: 575px;
+    background: gray;
+  }
+}
+
+/* 와이드 모바일 col-xs */
+@media (min-width: 576px) and (max-width: 767px) {
+  .wrap {
+    background-color: green;
+  }
+}
+
+/* 가로 태블릿 col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrap {
+    background-color: blue;
+  }
+}
+
+/* 데스크탑 col-md */
+@media (min-width: 992px) {
+  .wrap {
+    background-color: lime;
+  }
+
+  /* 헤더 */
+  .headerrow {
+    height: 55px;
+  }
+
+  .header .searchbox {
+    position: relative;
+  }
+
+  .header input {
+    width: 100%;
+  }
+
+  .header .searchbox span {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+
+  .header .fas {
+    margin: 0 0.3rem;
+    color: black;
+  }
+
+  /* 메인 */
+
+=======
+/* 웰컴체 Bold */
+@font-face {
+  font-family: "OTWelcomeBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 웰컴체 Ragular */
+@font-face {
+  font-family: "OTWelcomeRA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 전체설정 reset 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 공통 */
+
+.wrap {
+  text-align: center;
+  border: 1px solid black;
+}
+
+div[class~="border"] {
+}
+
+/* 홈 */
+.homerow {
+  margin-top: 100px;
+}
+
+.hometext {
+  margin-top: 2rem;
+}
+
+.hometext div {
+  margin: 1rem 0;
+}
+
+.homeleft {
+  position: relative;
+}
+
+.phone-img {
+  position: absolute;
+  top: -5rem;
+  left: -2rem;
+  transform: translate(-0%, -0%);
+  background-image: url(https://i.ibb.co/XsHfBLx/Phones.png);
+  background-repeat: no-repeat;
+  height: 38rem;
+  width: 26rem;
+  transform: scale(0.5);
+}
+
+.phone-img > img {
+  margin-top: 5em;
+  margin-left: 9.5rem;
+}
+
+.footer-links li {
+  margin: 0.5rem 0.5rem;
+}
+
+/*	
+            320px 이상 ~ 575px 이하 너비부터 red // col-xxs 
+            576px 이상 767px 이하 너비부터 green // col-xs 
+            768px 이상 너비부터 blue // col-sm 태블릿
+			992px 이상 너비부터 lime // col-md 데스크탑
+			1200px 이상 너비부터 orange // col-lg 큰화면 데크스탑
+		*/
+
+/* 기본 모바일 col-xxs */
+@media (max-width: 575px) {
+  .wrap {
+    background-color: red;
+  }
+
+  div[class~="col-xxs"] {
+    min-width: 320px;
+    max-width: 575px;
+    background: gray;
+  }
+
+  .homeleft {
+    display: none;
+  }
+}
+
+/* 와이드 모바일 col-xs */
+@media (min-width: 576px) and (max-width: 767px) {
+  .wrap {
+    background-color: green;
+  }
+  .homeleft {
+    display: none;
+  }
+}
+
+/* 가로 태블릿 col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrap {
+    background-color: blue;
+  }
+
+  .phone-img {
+    position: absolute;
+    top: -5rem;
+    left: -7rem;
+    transform: translate(-0%, -0%);
+    background-image: url(https://i.ibb.co/XsHfBLx/Phones.png);
+    background-repeat: no-repeat;
+    height: 38rem;
+    width: 26rem;
+    transform: scale(0.5);
+  }
+}
+
+/* 데스크탑 col-md */
+@media (min-width: 992px) {
+  .wrap {
+    background-color: lime;
+  }
+
+  /* 헤더 */
+  .headerrow {
+    height: 55px;
+  }
+
+  .header .searchbox {
+    position: relative;
+  }
+
+  .header input {
+    width: 100%;
+  }
+
+  .header .searchbox span {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+
+  .header .fas {
+    margin: 0 0.3rem;
+    color: black;
+  }
+
+  /* 메인 */
+>>>>>>> branch 'kth' of https://github.com/valorjj/jsp_project
+  .wrap .maincontainer {
+    max-width: 940px;
+  }
+
+  .mainrow .mypage-bot li {
+    color: #555;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  body {
+    background-color: orange;
+  }
+} */
+
+/* 헤더 */
+header {
+}
+
+/* 메인 */
+main {
+}
+
+/* 푸터 */
+footer {
+}
