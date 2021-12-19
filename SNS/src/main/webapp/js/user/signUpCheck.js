@@ -45,7 +45,6 @@
 				document.getElementById("pwresult").innerHTML = "사용가능한 패스워드 입니다.";
 				document.getElementById("pwresult").style.color = "green";
 			}
-
 			// 이름
 			if (!namej.test(name)) {
 				document.getElementById("nameresult").innerHTML = "이름을 입력해주세요.[특수문자는 제외]";

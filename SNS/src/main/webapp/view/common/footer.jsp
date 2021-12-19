@@ -7,7 +7,7 @@
 </head>
 <body>
 	<!-- 스크립트/css/부트스트랩 호출 -->
-	<%@include file="./common.jsp"%>
+	<%@include file="common.jsp"%>
 	<!-- 푸터 시작 -->
 	<div class="wrap">
 		<div class="container my-2 ">

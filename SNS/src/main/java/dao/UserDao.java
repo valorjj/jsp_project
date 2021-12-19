@@ -6,19 +6,18 @@ public class UserDao extends DB {
 
 	public UserDao() {
 		super();
-
 	}
 
 	public static UserDao userDao = new UserDao();
 
-	public static UserDao getuserDao() {
+	public static UserDao getUserDao() {
 		return userDao;
 	}
 
 	// 1. 회원가입 메소드
 	public boolean usersignup(User user) {
 
-		String sql = "insert into user(user_id,user_password,user_email,user_phone,user_name,user_gender,user_age) values(?,?,?,?,?,?,?)";
+		String sql = "insert into user(user_id, user_password, user_email, user_phone, user_name, user_gender, user_age) values(?,?,?,?,?,?,?)";
 		try {
 			ps = con.prepareStatement(sql);
 			ps.setString(1, user.getUser_id());
@@ -48,13 +47,14 @@ public class UserDao extends DB {
 				return true;
 			} // 아이디 존재함
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		return false; // 아이디 존재하지 않음
 	}
 
 	// 3. 로그인 체크 메소드
-	public boolean logincheck(String id, String password) {
-		String sql = "select * from member where user_id =? and user_password = ? ";
+	public boolean loginCheck(String id, String password) {
+		String sql = "select * from user where user_id = ? and user_password = ? ";
 		try {
 			ps = con.prepareStatement(sql);
 			ps.setString(1, id);
@@ -64,19 +64,33 @@ public class UserDao extends DB {
 				return true;
 			}
 		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		return false;
 	}
-	
-	// 4. 회원탈퇴 메소드
-	
-	// 5. 회원정보 출력 메소드
-	
-	// 6. 회원정보 수정 메소드
-	
-	// 7. 회원버놓 검색 메소드
-	
-	// 8. 회원아이디 검색 메소드
 
+	// 4. 회원탈퇴 메소드
+
+	// 5. 회원정보 출력 메소드
+
+	// 6. 회원정보 수정 메소드
+
+	// 7. 회원번호 검색 메소드
+	public int getUserNo(String id) {
+		String sql = "select user_no from user where user_id = ?";
+		try {
+			ps = con.prepareStatement(sql);
+			ps.setString(1, id);
+			rs = ps.executeQuery();
+			if (rs.next()) {
+				return rs.getInt(1);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}
+
+	// 8. 회원아이디 검색 메소드
 
 }

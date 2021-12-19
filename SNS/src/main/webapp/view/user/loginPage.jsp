@@ -3,7 +3,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
 	<!-- 스크립트/css/부트스트랩 호출 -->
@@ -28,15 +27,15 @@
 						<div class="logo text-center">
 							<a href="#"> <img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
 						</div>
-						<form class="d-flex flex-column bg-danger px-2" action="" style="width: 90%; margin: 0 auto;">
-							<input class="form-control my-2" type="text" placeholder=" 아이디">
-							<input class="form-control my-2" type="password" placeholder=" 비밀번호">
-							<button class="btn-primary col-12 my-2" type="button" style="cursor: pointer;">로그인</button>
+						<form class="d-flex flex-column bg-danger px-2" action="../../controller/user/logInController.jsp" method="post" style="width: 90%; margin: 0 auto;">
+							<input class="form-control my-2" type="text" placeholder=" 아이디" name="loginId">
+							<input class="form-control my-2" type="password" placeholder=" 비밀번호" name="loginPassword">
+							<input class="btn-primary col-12 my-2" type="submit" style="cursor: pointer;" value="로그인" />
 							<div class="searchpassword text-center my-2">
 								<a href="">비밀번호를 잊으셧나요?</a>
 							</div>
 							<div class="signbox bg-info my-1 p-2 text-center">
-								계정이 없으신가요?<a href="./signupPage.jsp"><span class="text-white ml-1">가입하기</span></a>
+								계정이 없으신가요?<a href="signUpPage.jsp"><span class="text-white ml-1">가입하기</span></a>
 							</div>
 						</form>
 					</div>

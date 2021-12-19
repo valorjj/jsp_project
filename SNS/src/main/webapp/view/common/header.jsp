@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="/SNS/css/post/post.css" rel="stylesheet">
+<link href="../css/post/post.css" rel="stylesheet">
 </head>
 <body>
 
@@ -108,7 +108,6 @@
 
 
 	<!-- 게시글 등록 모달 창 시작 -->
-
 	<div id="contentModal" class="modal fade" tabindex="-1">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -139,14 +138,12 @@
 								<div class="col-md-10">
 									<h6> 내용 </h6>
 								</div>
-								
-							
-							
 							</div>
 							<!-- 본문 내용 등록하는 구역 -->
 							<!-- id : postContent -->
-							
 							<div id="postContent">
+								
+							
 							
 							</div>
 						
