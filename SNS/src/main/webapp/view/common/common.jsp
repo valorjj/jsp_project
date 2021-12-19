@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
 <!-- 공통 CSS -->
 <link href="../../css/common/index.css" rel="stylesheet">
 <!-- 부트스트랩 css 로드 -->
