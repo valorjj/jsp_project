@@ -28,11 +28,13 @@
 						<div>
 							<span id="idresult"></span>
 						</div>
-						<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();">
+						<div>
+							<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();" style="font-family: '고딕체'">
+						</div>
 						<div>
 							<span id="pwresult"></span>
 						</div>
-						<input id="passwordconfirm" class="form-control my-2" type="password" placeholder=" 비밀번호 확인" name="passwordconfirm" onchange="signupcheck();">
+						<input id="passwordconfirm" class="form-control my-2" type="password" placeholder=" 비밀번호 확인" name="passwordconfirm" onchange="signupcheck();" style="font-family: '고딕체'">
 						<input id="email" class="form-control my-2" type="email" placeholder=" 이메일주소 (@포함)" name="email" onchange="signupcheck();">
 						<input id="phone" type="text" id="phone" onchange="" name="phone" class="form-control my-2" placeholder="Phone : 000-0000-0000" name="phone" onchange="signupcheck();">
 						<div>
@@ -79,7 +81,7 @@
 		<!-- 회원가입 페이지 종료 -->
 		<!-- 푸터 -->
 		<div class="col-12" style="height: 20vh; position: absolute; bottom: 0">
-			<%@include file="../common/footer.jsp"%>
+<%-- 			<%@include file="../common/footer.jsp"%> --%>
 		</div>
 	</div>
 	<!-- 다음 주소 api js 호출 -->

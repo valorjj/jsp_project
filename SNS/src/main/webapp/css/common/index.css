@@ -143,8 +143,10 @@ div[class~="border"] {
 	/* mainpage - nav 서치바 감추기 */
 	.searchbar {
 		/* display: none !important; */
+		display:none;
 		visibility: hidden;
-		width: 0;
+		width: 0px;
+		background: red;
 	}
 
 	/* 메인페이지 좌측 이미지 */
@@ -179,11 +181,13 @@ div[class~="border"] {
 		display: none;
 	}
 
-	/* nav 서치바 감추기 */
-	.searchbox {
+	/* mainpage - nav 서치바 감추기 */
+	.searchbar {
 		/* display: none !important; */
+		display:none;
 		visibility: hidden;
-		width: 0;
+		width: 0px;
+		height: 0px;
 	}
 
 	/* 메인페이지 좌측 이미지 */
@@ -225,8 +229,8 @@ div[class~="border"] {
 
 	/* 메인페이지 좌측 이미지 */
 	.imgbox {
-		width: 100%;
-		height: 100%;
+		width: 90%;
+		height: 90%;
 		background: blue;
 	}
 	.imgbox img {

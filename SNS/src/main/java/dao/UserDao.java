@@ -37,12 +37,12 @@ public class UserDao extends DB {
 	}
 
 	// 2. 아이디 체크 메소드
-	public boolean idcheck(String useridcheck) {
+	public boolean idcheck(String userid) {
 
 		String sql = "select user_id from user where user_id = ?";
 		try {
 			ps = con.prepareStatement(sql);
-			ps.setString(1, useridcheck);
+			ps.setString(1, userid);
 			rs = ps.executeQuery();
 			if (rs.next()) {
 				return true;
@@ -53,8 +53,8 @@ public class UserDao extends DB {
 	}
 
 	// 3. 로그인 체크 메소드
-	public boolean logincheck(String id, String password) {
-		String sql = "select * from member where user_id =? and user_password = ? ";
+	public boolean login(String id, String password) {
+		String sql = "select * from user where user_id =? and user_password = ? ";
 		try {
 			ps = con.prepareStatement(sql);
 			ps.setString(1, id);
@@ -66,6 +66,18 @@ public class UserDao extends DB {
 		} catch (Exception e) {
 		}
 		return false;
+	}
+	
+	// 회원번호 검색 메소드 
+	public int getmembernum( String id) {
+		
+		String sql ="select user_no from user where u_id=?";
+		try {
+			ps =con.prepareStatement(sql); ps.setString(1, id);
+			rs = ps.executeQuery(); 
+			if( rs.next() ) { return rs.getInt(1); }
+		}catch (Exception e) {} return 0;
+		
 	}
 	
 	// 4. 회원탈퇴 메소드

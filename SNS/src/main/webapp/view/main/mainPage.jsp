@@ -16,7 +16,7 @@
 			<!-- 가로배치 -->
 			<div class="row">
 				<!-- 좌측컨텐츠 -->
-				<div class="col-lg-7 col-md-12 col-sm-12 col-12 mainleft">
+				<div class="col-lg-8 col-md-12 col-sm-12 col-12 mainleft">
 					<!-- 좌측컨텐츠 슬라이드박스 -->
 					<div class="mainslidebox  my-2 d-flex align-items-center justify-content-center" style="height: 120px">
 						<!-- 이너박스 시작 -->
@@ -171,7 +171,7 @@
 					</div>
 				</div>
 				<!-- 우측컨텐츠 -->
-				<div id="mainmycontents" class="col-5 mainright border main-danger d-flex flex-column align-items-start d-none d-xs-none d-sm-none d-md-none d-lg-block">
+				<div id="mainmycontents" class="col-4 mainright border main-danger d-flex flex-column align-items-start d-none d-xs-none d-sm-none d-md-none d-lg-block">
 					<!-- 마이박스 -->
 					<div class="mybox d-flex justify-content-arround align-items-center bg-danger" style="width: 100%; height: 5rem;">
 						<div class="myboximg ml-2" style="width: 25%">
@@ -207,7 +207,7 @@
 									<div class="ml-2" style="width: 25%">동그란이미지</div>
 									<div class="d-flex flex-column justify-content-center align-items-start" style="width: 50%">
 										<div class="row1">닉네임</div>
-										<div class="row2">ㅇㅇㅇ님이 팔로우합니다</div>
+										<div class="row2" style="font-size: 10px;">ㅇㅇㅇ님이 팔로우합니다</div>
 									</div>
 									<div class="text-right mr-2" style="width: 25%">
 										<a href="" class="">팔로우</a>
@@ -218,7 +218,7 @@
 									<div class="ml-2" style="width: 25%">동그란이미지</div>
 									<div class="d-flex flex-column justify-content-center align-items-start" style="width: 50%">
 										<div class="row1">닉네임</div>
-										<div class="row2">ㅇㅇㅇ님이 팔로우합니다</div>
+										<div class="row2" style="font-size: 10px;">ㅇㅇㅇ님이 팔로우합니다</div>
 									</div>
 									<div class="text-right mr-2" style="width: 25%">
 										<a href="" class="">팔로우</a>

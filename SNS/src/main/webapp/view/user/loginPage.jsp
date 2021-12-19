@@ -8,9 +8,16 @@
 <body>
 	<!-- 스크립트/css/부트스트랩 호출 -->
 	<%@include file="../common/common.jsp"%>
+	<%
+	// 로그인[세션]이 되어 있는경우
+	if (login != null) {
+		out.print("<script>alert('로그인이 되어있습니다.');</script>");
+		out.println("<script>location.href='../main/mainPage.jsp';</script>");
+	}
+	%>
 	<!-- 로그인페이지 시작 -->
 	<div class="wrap" style="height: 100vh; position: relative;">
-		<div class="container my-5 d-flex flex-column d-flex justify-content-center" style="height: 80vh">
+		<div class="container my-5 d-flex flex-column d-flex justify-content-center " style="height: 60vh">
 			<!-- 가로배치 -->
 			<div class="row loginbox col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-warning gx-10">
 				<!-- 좌측 -->
@@ -29,14 +36,27 @@
 							<a href="#"> <img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
 						</div>
 						<form class="d-flex flex-column bg-danger px-2" action="" style="width: 90%; margin: 0 auto;">
-							<input class="form-control my-2" type="text" placeholder=" 아이디">
-							<input class="form-control my-2" type="password" placeholder=" 비밀번호">
+							<input name="id" class="form-control my-2" type="text" placeholder=" 아이디">
+							<input name="password" class="form-control my-2" type="password" placeholder=" 비밀번호" style="font-family: '고딕체'">
+							<!--  -->
+							<%
+							
+							String result = request.getParameter("result");
+							if (result != null) {
+							%>
+							<div>
+								<span>회원정보가 올바르지 않습니다.</span>
+							</div>
+							<%
+							}
+							%>
+							<!--  -->
 							<button class="btn-primary col-12 my-2" type="button" style="cursor: pointer;">로그인</button>
 							<div class="searchpassword text-center my-2">
 								<a href="">비밀번호를 잊으셧나요?</a>
 							</div>
 							<div class="signbox bg-info my-1 p-2 text-center">
-								계정이 없으신가요?<a href="./signupPage.jsp"><span class="text-white ml-1">가입하기</span></a>
+								계정이 없으신가요?<a href="./signUpPage.jsp"><span class="text-white ml-1">가입하기</span></a>
 							</div>
 						</form>
 					</div>
@@ -46,7 +66,7 @@
 		<!-- 로그인페이지 종료 -->
 		<!-- 푸터 -->
 		<div class="col-12" style="height: 20vh; position: absolute; bottom: 0">
-			<%@include file="../common/footer.jsp"%>
+			<%-- <%@include file="../common/footer.jsp"%> --%>
 		</div>
 	</div>
 	<!-- 회원가입 핸드폰 자동 슬라이드 -->
