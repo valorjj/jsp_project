@@ -14,7 +14,7 @@ function readImages(input) {
 		$colDiv1.classList.add("column") // <div class="column"> </div> 생성하는 것 같다.
 		// $colDiv2.classList.add("column")
 
-		fileArray.forEach((file, index) => {
+		fileArray.forEach((file) => {
 			const reader = new FileReader()
 
 			const $imgDiv = document.createElement("div")
