@@ -82,17 +82,19 @@
 				reader.readAsDataURL(input.files[0]);
 			}
 		}
-		
 		document.getElementById('uploadImage').addEventListener('change', (e) => {
 		    readImage(e.target);
 		});
 		
  		$('#btnSubmitPost').on('click', function(event){
 			event.preventDefault();
-			
-		    var form = $('#uploadForm')[0];  	    
+		    var form = $('#uploadForm')[0];  	 
+		    console.log(form);
 		    // Create an FormData object          
-		    var data = new FormData(form);  	  
+		    var data = new FormData(form);  
+		    console.log(data);
+		    data.append('img',document.getElementById('uploadImage').files[0]);
+		    console.log(data);
 		    // Create an FormData object          
 			$('#btnSubmitPost').prop('disabled', true);
 			$.ajax({

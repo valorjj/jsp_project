@@ -10,7 +10,8 @@
 */
 
 String folderpath = "C:/Users/김채연/git/jsp_project/SNS/src/main/webapp/upload";
-MultipartRequest multi = new MultipartRequest(request, folderpath, 1024 * 1024 * 10, "UTF-8", new DefaultFileRenamePolicy());
+MultipartRequest multi = new MultipartRequest(request, folderpath, 1024 * 1024 * 10, "UTF-8",
+		new DefaultFileRenamePolicy());
 request.setCharacterEncoding("utf-8");
 String imageFile = multi.getFilesystemName("data");
 out.print(imageFile);
