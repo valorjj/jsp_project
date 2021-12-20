@@ -29,7 +29,7 @@
 						</div>
 						<form class="d-flex flex-column bg-danger px-2" action="../../controller/user/logInController.jsp" method="post" style="width: 90%; margin: 0 auto;">
 							<input class="form-control my-2" type="text" placeholder=" 아이디" name="loginId">
-							<input class="form-control my-2" type="password" placeholder=" 비밀번호" name="loginPassword">
+							<input class="form-control my-2" type="password" placeholder=" 비밀번호" name="loginPassword" style="font-family: '고딕체'">
 							<input class="btn-primary col-12 my-2" type="submit" style="cursor: pointer;" value="로그인" />
 							<div class="searchpassword text-center my-2">
 								<a href="">비밀번호를 잊으셧나요?</a>

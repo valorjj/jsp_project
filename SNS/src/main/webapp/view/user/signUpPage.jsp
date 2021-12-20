@@ -24,11 +24,11 @@
 					</div>
 					<!-- 회원가입 폼양식 -->
 					<form id="signupform" class=" px-1" method="post" action="../../controller/user/signUpController.jsp" style="width: 16rem" onsubmit="return signupcheck()">
-						<input id="id" class="form-control my-2" type="text" placeholder=" 아이디 입력" name="id" onchange="signupcheck();">
+						<input id="id" class="form-control my-2" type="text" placeholder=" 아이디 입력" name="id" onchange="signupcheck();" style="font-family: '고딕체'">
 						<div>
 							<span id="idresult"></span>
 						</div>
-						<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();">
+						<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();" style="font-family: '고딕체'">
 						<div>
 							<span id="pwresult"></span>
 						</div>
