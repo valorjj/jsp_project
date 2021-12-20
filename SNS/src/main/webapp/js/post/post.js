@@ -10,9 +10,9 @@ function readImages(input) {
 		console.log(input.files) // 콘솔에서 파일 잘 들어가는지 확인
 
 		const $colDiv1 = document.createElement("div") // <div> </div> 값을 만드는 코드인가? 
-		const $colDiv2 = document.createElement("div")
+		// const $colDiv2 = document.createElement("div")
 		$colDiv1.classList.add("column") // <div class="column"> </div> 생성하는 것 같다.
-		$colDiv2.classList.add("column")
+		// $colDiv2.classList.add("column")
 
 		fileArray.forEach((file, index) => {
 			const reader = new FileReader()
