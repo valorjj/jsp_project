@@ -15,7 +15,7 @@ public class DB {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3307/sns?serverTimezone=UTC", "root", "1234");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sns?serverTimezone=UTC", "root", "1234");
 			//con = DriverManager.getConnection("jdbc:mysql://localhost:3307/sns?serverTimezone=UTC","root","1234");
 			System.out.println("[연동성공]");
 		} catch (Exception e) {

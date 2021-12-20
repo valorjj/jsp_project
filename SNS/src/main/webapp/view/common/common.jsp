@@ -14,6 +14,9 @@
 <!-- 아이콘 사용 -->
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+<!-- 부트스트랩 아이콘 사용 -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 <body>
 	<!-- js로드 -->

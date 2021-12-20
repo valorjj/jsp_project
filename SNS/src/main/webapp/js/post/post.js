@@ -62,9 +62,9 @@ reloadImages.addEventListener("click", e => {
 
 /* 본문 내용 입력 : 입력 시 '#' '@' 특수문자 입력되면 분류 1*/
 
-function sortTag() {
+/*function sortTag() {
 
-	/* 본문에 입력된 내용을 검사해서, '#' 혹은 '@' 이 포함되었을 때 이벤트 발생 -> db 조회 한 뒤 결과를 출력한다. (#tagList) */
+	// 본문에 입력된 내용을 검사해서, '#' 혹은 '@' 이 포함되었을 때 이벤트 발생 -> db 조회 한 뒤 결과를 출력한다. (#tagList)
 	var contents = $("pstContent").val();
 
 	// indexOf 는 해당하는 문자열이 존재하면 위치를 반환, 없으면 '-1' 을 반환한다. 
@@ -84,7 +84,7 @@ function sortTag() {
 		// 2. 태그(유저 아이디) 가 존재하는 경우
 	}
 
-}
+}*/
 
 
 /* 본문 내용 입력 : 입력 시 '#' '@' 특수문자 입력되면 분류 2*/
