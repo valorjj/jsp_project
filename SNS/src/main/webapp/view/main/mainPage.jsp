@@ -9,7 +9,7 @@
 	<!-- 스크립트/css/부트스트랩 호출 -->
 	<%@include file="../common/common.jsp"%>
 	<!-- 헤더 고정 -->
-	<%@include file="../common/header.jsp"%>
+	<%-- <%@include file="../common/header.jsp"%> --%>
 	<!-- 메인시작 -->
 	<div class="wrap">
 		<div class="container">
@@ -204,7 +204,7 @@
 							<div class="recommendbox ">
 								<div class="repeatbox d-flex justify-content-center align-items-center border my-1 ">
 									<div class="ml-2" style="width: 25%">동그란이미지</div>
-									<div class="d-flex flex-column justify-content-center align-items-start" style="width: 50%">
+									<div class="d-flex flex-column justify-content-center align-items-start" style="width: 50%">"C:/Users/pc/Desktop/jsp_projectab/SNS/src/main/webapp/view/common/header.jsp"
 										<div class="row1">닉네임</div>
 										<div class="row2" style="font-size: 10px;">ㅇㅇㅇ님이 팔로우합니다</div>
 									</div>
