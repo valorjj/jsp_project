@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- 공통 CSS -->
-<link href="../css/index.css" rel="stylesheet">
+<link href="../../../css/common/index.css" rel="stylesheet">
 <!-- 부트스트랩 css 로드 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- 아이콘 사용 -->

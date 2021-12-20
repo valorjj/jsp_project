@@ -6,9 +6,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%@include file="./common.jsp"%>
+	<!-- 스크립트/css/부트스트랩 호출 -->
+	<%@include file="../common/common.jsp"%>
+	<!-- 로그인페이지 시작 -->
 	<div class="wrap">
-		<div class="container ">
+		<div class="container my-5">
 			<!-- 가로배치 -->
 			<div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-warning d-flex justify-content-center gx-10">
 				<!-- 좌측 -->
@@ -26,21 +28,25 @@
 						<div class="logo text-center">
 							<a href=""> <img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
 						</div>
-						<form class="" action="" >
-							<input class="form-control my-3" type="text" placeholder=" 전화번호 사용자 이름 또는 이메일"> <input class="form-control my-3" type="password" placeholder=" 비밀번호">
+						<form class="" action="">
+							<input class="form-control my-2" type="text" placeholder=" 전화번호 사용자 이름 또는 이메일">
+							<input class="form-control my-2" type="password" placeholder=" 비밀번호">
 							<button class="btn-primary col-12 " type="button" style="cursor: pointer;">로그인</button>
-							<div class="searchpassword text-center text-center my-3">
+							<div class="searchpassword text-center text-center my-2">
 								<a href="">비밀번호를 잊으셧나요?</a>
 							</div>
 						</form>
 					</div>
-					<div class="signbox bg-info my-3 p-2 text-center" style="width: 80%">
-						계정이 없으신가요?<a href="./signup.jsp">가입하기</a>
+					<div class="signbox bg-info my-2 p-2 text-center" style="width: 80%">
+						계정이 없으신가요?<a href="./signupPage.jsp"><span class="text-white ml-1">가입하기</span></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- 로그인페이지 종료 -->
+	<!-- 푸터 고정 -->
+	<%@include file="../common/footer.jsp"%>
 	<!-- 회원가입 핸드폰 자동 슬라이드 -->
 	<script type="text/javascript">
 		var myIndex = 0;
