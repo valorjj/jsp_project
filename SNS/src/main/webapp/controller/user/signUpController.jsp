@@ -24,10 +24,10 @@
 
 	// 3. 객체화
 	User user = new User(id, password, email, phone, name, sex, age);
-	// DB처리
-	boolean result = UserDao.getuserDao().usersignup(user);
+	// 4. DB처리
+	boolean result = UserDao.getUserDao().usersignup(user);
 	if (result) { // 회원가입 성공
-		response.sendRedirect("../../view/main/mainPage.jsp");
+		response.sendRedirect("../../view/user/loginPage.jsp");
 	} else { // 회원가입 실패
 		response.sendRedirect("../../view/user/signUpPage.jsp");
 	}

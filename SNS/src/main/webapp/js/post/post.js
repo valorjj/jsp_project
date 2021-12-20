@@ -34,15 +34,17 @@ function readImages(input) {
 				$imgDiv.style.height = ($img.naturalHeight) * 0.2 + "px"*/
 			}
 			console.log(file.name)
-			if (index % 2 == 0) {
+			/*if (index % 2 == 0) {
 				$colDiv1.appendChild($imgDiv)
 			} else {
 				$colDiv2.appendChild($imgDiv)
-			}
+			}*/
+			$colDiv1.appendChild($imgDiv)
+			
 			reader.readAsDataURL(file)
 		})
 		imageContainer.appendChild($colDiv1)
-		imageContainer.appendChild($colDiv2)
+		/*imageContainer.appendChild($colDiv2)*/
 	}
 }
 const inputImages = document.getElementById("uploadImages")

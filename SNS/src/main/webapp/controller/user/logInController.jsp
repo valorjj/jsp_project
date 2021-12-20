@@ -18,7 +18,7 @@ if (result) { // 로그인 성공 시
 	int user_no = UserDao.getUserDao().getUserNo(id);
 	// 3.2 user_no, user_id 값을 가지는 session 값 부여
 	LogInData logInData = new LogInData(user_no, id);
-	session.setAttribute("logIn", logInData);
+	session.setAttribute("logIn", logInData); // 세션 이름 : "logIn" 세션 데이터 : logInData -> [user_no, user_id]
 	// 3.3 로그인 성공한 뒤 메인 화면으로 이동
 	response.sendRedirect("/sns/view/main/mainPage.jsp");
 } else { // 로그인 실패 시

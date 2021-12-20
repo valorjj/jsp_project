@@ -70,7 +70,7 @@
 						</div>
 						<button class="btn-primary col-12 pt-2 form-control" type="submit" style="cursor: pointer;">가입</button>
 						<div class="loginbox bg-info my-3 pt-2 text-center">
-							계정이 있으신가요?<a href="./loginPage.jsp"><span class="text-white ml-1">로그인</span></a>
+							계정이 있으신가요?<a href="loginPage.jsp"><span class="text-white ml-1">로그인</span></a>
 						</div>
 					</form>
 				</div>
