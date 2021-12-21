@@ -46,7 +46,7 @@ sql
 3. 가져온 medias_no를 조건으로 medias 테이블에서 content_url을 가져온다.
 	
 ![sql](https://user-images.githubusercontent.com/88937233/146893395-67935211-25cf-4154-b204-11952485ab6f.png)
-현재까지 작성한 sql문 
+				(현재까지 작성한 sql문 )
 	
 문제점 
 post_medias 테이블은 컬럼이 모두 fk라 생성이 임의적으로 생성이 불가하여 테스트가 불가하다.
