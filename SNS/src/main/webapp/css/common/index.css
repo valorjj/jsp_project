@@ -108,8 +108,8 @@ div[class~="border"] {
 
 .dropdownmenuitem {
 	display: none;
-	/* visibility: hidden;
-	/* z-index: 999; */
+	/* visibility: hidden; */
+	z-index: 999;
 }
 
 /* 푸터 */

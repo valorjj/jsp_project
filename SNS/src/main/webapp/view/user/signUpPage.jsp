@@ -28,11 +28,11 @@
 						<div>
 							<span id="idresult"></span>
 						</div>
-						<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();">
+						<input id="password" class="form-control my-2" type="password" placeholder=" 비밀번호 입력" name="password" onchange="signupcheck();" style="font-family: '고딕'">
 						<div>
 							<span id="pwresult"></span>
 						</div>
-						<input id="passwordconfirm" class="form-control my-2" type="password" placeholder=" 비밀번호 확인" name="passwordconfirm" onchange="signupcheck();">
+						<input id="passwordconfirm" class="form-control my-2" type="password" placeholder=" 비밀번호 확인" name="passwordconfirm" onchange="signupcheck();" style="font-family: '고딕'">
 						<input id="email" class="form-control my-2" type="email" placeholder=" 이메일주소 (@포함)" name="email" onchange="signupcheck();">
 						<input id="phone" type="text" id="phone" onchange="" name="phone" class="form-control my-2" placeholder="Phone : 000-0000-0000" name="phone" onchange="signupcheck();">
 						<div>

@@ -18,17 +18,21 @@
 					<div class="messagetitle d-flex justify-content-between p-3">
 						<label class="" for="">닉네임</label>
 						<span class="btnsend">
-							<a href="#"><svg aria-label="새로운 메시지" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+							<a href="#">
+								<svg aria-label="새로운 메시지" class="_8-yf5 " color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
 									<path d="M12.202 3.203H5.25a3 3 0 00-3 3V18.75a3 3 0 003 3h12.547a3 3 0 003-3v-6.952" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
 									<path d="M10.002 17.226H6.774v-3.228L18.607 2.165a1.417 1.417 0 012.004 0l1.224 1.225a1.417 1.417 0 010 2.004z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-									<line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.848" x2="20.076" y1="3.924" y2="7.153"></line></svg></a>
+									<line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16.848" x2="20.076" y1="3.924" y2="7.153"></line></svg>
+							</a>
 						</span>
 					</div>
 					<div class="messagelist d-flex flex-colmn flex-wrap" style="height: auto; width: 100%;">
 						<!-- 반복추가 표본 -->
 						<div class="userbox d-flex border border-primary" style="width: 100%">
 							<div class="usericon align-self-center text-center" style="width: 20%">
-								<a class="chatlink" href=""><img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" /></a>
+								<a class="chatlink" href="">
+									<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" />
+								</a>
 							</div>
 							<div class="align-self-center ml-3 p-2" style="width: 80%">
 								<label for="">닉네임</label>
@@ -39,7 +43,9 @@
 						<!-- 반복추가 -->
 						<div class="userbox d-flex border border-primary" style="width: 100%">
 							<div class="usericon align-self-center text-center" style="width: 20%">
-								<a class="chatlink" href=""><img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" /></a>
+								<a class="chatlink" href="">
+									<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" />
+								</a>
 							</div>
 							<div class="align-self-center ml-3 p-2" style="width: 80%">
 								<label for="">닉네임</label>
@@ -49,7 +55,9 @@
 						</div>
 						<div class="userbox d-flex border border-primary" style="width: 100%">
 							<div class="usericon align-self-center text-center" style="width: 20%">
-								<a class="chatlink" href=""><img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" /></a>
+								<a class="chatlink" href="">
+									<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 60px; height: 60px;" />
+								</a>
 							</div>
 							<div class="align-self-center ml-3 p-2" style="width: 80%">
 								<label for="">닉네임</label>
@@ -118,7 +126,9 @@
 						<!-- 반복1 -->
 						<div class="input-group-text d-flex " style="width: 100%; height: 60px;">
 							<div class="profileimg" style="width: 30%">
-								<a class="chatlink" href=""><img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 40px; height: 40px;" /></a>
+								<a class="chatlink" href="">
+									<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 40px; height: 40px;" />
+								</a>
 							</div>
 							<div class="profiletxt" style="width: 50%; height: 60px;">
 								<p class="text-left" style="height: 30px; line-height: 30px; margin: 0; padding: 0">아이디</p>
@@ -129,7 +139,9 @@
 						<!-- 반복2 무한 -->
 						<div class="input-group-text d-flex " style="width: 100%; height: 60px;">
 							<div class="profileimg" style="width: 30%">
-								<a class="chatlink" href=""><img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 40px; height: 40px;" /></a>
+								<a class="chatlink" href="">
+									<img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="" style="border-radius: 50%; width: 40px; height: 40px;" />
+								</a>
 							</div>
 							<div class="profiletxt" style="width: 50%; height: 60px;">
 								<p class="text-left" style="height: 30px; line-height: 30px; margin: 0; padding: 0">아이디</p>
@@ -176,7 +188,10 @@
 			var arrow = $('.chat-head img');
 			var textarea = $('.chat-text textarea');
 
-			arrow.on('click', function() {
+			arrow
+					.on(
+							'click',
+							function() {
 								var src = arrow.attr('src');
 
 								$('.chat-body').slideToggle('fast');
