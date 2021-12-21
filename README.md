@@ -1,4 +1,4 @@
-# 2021-12-21 
+# sns 프로젝트 개발 일기장 조지훈
 
 (시간이 얼마 없지만 그래도 그거라도)
 
@@ -30,4 +30,5 @@ String sql = " .... where p_no = ? order by count(*)
 		sql = " ... where p_no = ? --> 여기서 medias_no 가져온다. 
 	}
 <% ArrayList<Medias> medias = MemdiasDao.getMediasDao.getList();
-	
+
+# 2021-12-21 
