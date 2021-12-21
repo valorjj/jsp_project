@@ -126,11 +126,11 @@
 	</div>
 	<!-- 헤더 컨테이너 종료 -->
 	<!-- 알림 슬라이드 토글 -->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		$(".dropdownmenu").on("click", function(e) {
 			e.preventDefault();
 			$(".dropdownmenuitem").slideToggle("fast");
 		});
-	</script>
+	</script> -->
 </body>
 </html>
