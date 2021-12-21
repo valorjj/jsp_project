@@ -31,7 +31,10 @@
 
 # 프로젝트 소개 :
 
-인스타그램 페이지를 클론코딩하여 기존 모바일 위주인 인스타그램의 기능을 데스크탑 버전으로 구현하는 프로젝트입니다. 사진 기반으로(게시글 등록 시 무조건 사진 게시) 게시물을 등록하고 좋아요, 팔로우, 해시태그 기능을 구현해서 팔로우, 좋아요 누른 사람들간의 관계를 맺습니다. 추천인에 친구의 친구, 랜덤 피드에는 좋아요 누른 글이나 자주 검색한 해시 태그에 해당하는 글을 피드로 출력하는 것이 목표입니다. 다른 사람의 계정에 쪽지를 보내서 확인할 수 있는 DM 기능도 추가할 계획입니다. 
+인스타그램 페이지를 클론코딩하여 기존 모바일 위주인 인스타그램의 기능을 데스크탑 버전으로 구현하는 프로젝트입니다.   
+사진 기반으로(게시글 등록 시 무조건 사진 게시) 게시물을 등록하고 좋아요, 팔로우, 해시태그 기능을 구현해서 팔로우, 좋아요 누른 사람들간의 관계를 맺습니다.    
+추천인에 친구의 친구, 랜덤 피드에는 좋아요 누른 글이나 자주 검색한 해시 태그에 해당하는 글을 피드로 출력하는 것이 목표입니다.   
+다른 사람의 계정에 쪽지를 보내서 확인할 수 있는 DM 기능도 추가할 계획입니다. 
 
 ---
 # 프로젝트 스케줄 :
@@ -55,8 +58,8 @@
 2021.12.11 |  |  |  |
 2021.12.12 |  |  |  |
 2021.12.13 |  김정진, 조지훈, 신우현  | 컨트롤러 구성 | 100% |
-2021.12.14 | 김정진, 조지훈, 신우현 | DB  | 100% |
-2021.12.15 |  |  |  |
+2021.12.14 | 김정진, 조지훈, 신우현, 김태호 | DB + 레이아웃 잡기 | 60% |
+2021.12.15 | 김정진, 조지훈, 신우현, 김태호 | DB + 레이아웃 잡기 | 100% |
 2021.12.16 |  |  |  |
 2021.12.17 |  |  |  |
 2021.12.18 |  |  |  |
@@ -129,35 +132,50 @@ DB 설계 - Like | 유저 - 좋아요 | | 0% |
 # 역할분담 
 ---
 
-### 헤더 : 검색 (키워드, 해시태그)
-
+### 회원가입(로그인, 비밀번호찾기) 
+### 헤더 : 검색 (키워드, 해시태그) 
 ### 헤더 : 게시물 등록
-
 ### 헤더 : 랜덤 피드 출력
-
-### 헤더 : 활동 게시판 출력
-
+### 헤더 : 활동 게시판 출력 (팔로우, 게시물 좋아요, 댓글 좋아요, 태그당했을 때)
 ### 헤더 : 내 프로필 [프로필, 로그아웃]
-
 ### 메인 : 게시물 출력 (사진, 댓글, 좋아요, DM, 사이드 메뉴 - [게시물로 이동, 취소])
-
 ### 메인 : 우측 사이드 랜덤 게시글 출력 
-
 ### 메인 : 최근(24시간 내) 게시글 등록한 사람 프로필 사진 띄우기 [프로필 사진 누르면 해당 계정 프로필로 이동]
-
 ### 프로필 페이지(내계정) : 계정 정보(계정, 자기소개, 팔로우, 팔로워, 프로필 편집), 등록한 게시글 출력
-
 ### 프로필 페이지(다른계정) : 계정 정보(계정, 자기소개, 팔로우, 팔로워, DM 보내기 ), 등록한 게시글 출력
-
 ### 프로필 편집 페이지 : 사진, 계정명( 가능하면 중복체크 ), 이름, 이메일, 핸드폰, 성별 
+### DM 보내기 
+
+
+본인이 맡은 부분 다 했다고 쉬는게 아니라, 일단 끝내고 다른 팀원들 부분에 붙어서 다 같이 해야합니다.   
+생각보다 시간이 없고 매우 촉박한 상황이라고 생각하고 해주시면 되겠습니다.  
+아직 안정해진 부분은 메시지 보내기(txt 파일 처리)입니다.    
+포함되지 않은 부분, 각종 컨트롤러나 버튼 이벤트 등은 너무 많아서 제외시켰으며 만드시면서 당연히 만들어야 할 것 같은 건 만드셔야합니다. 모든 버튼, 모든 사진, 대부분의 텍스트에 링크가 걸려있음을 기억하고 만들어야합니다. 
+
+
+구분 | 기능 | 담당자 |
+---|---|---|
+회원가입(로그인, 비밀번호찾기 | 회원가입(로그인, 비밀번호찾기) | 김태호 |
+프로필 페이지(내계정) | 계정 정보(계정, 자기소개, 팔로우, 팔로워, 프로필 편집), 등록한 게시글 출력 | 김태호 |
+프로필 페이지(다른계정) | 계정 정보(계정, 자기소개, 팔로우, 팔로워, DM 보내기 ), 등록한 게시글 출력 | 김태호 |
+프로필 편집 페이지 | 사진, 계정명( 가능하면 중복체크 ), 이름, 이메일, 핸드폰, 성별  | 김태호 |
+헤더 | 검색(키워드, 해시태그 쿠키 처리) | 신우현 |
+헤더 | 게시물 등록(사진 여러장 올리기) | 신우현 김정진 |
+헤더 | 활동 게시판 | 김정진 | 
+헤더 | 랜덤피드 - 시간순서(하는 사람 마음 가는데로) | 조지훈 |
+메인 | 메인 게시물 | 김정진 |
+메인 | 사이드 랜덤 피드 출력 | 김정진 |
+메인 | 24시간 내 등록한 사람 프로필 사진 띄우기 | 김정진 |
+헤더 | DM 파일처리 | 미정 |
 
 
 ![image](https://user-images.githubusercontent.com/30681841/146146062-cdac267b-b107-4e8e-80bf-f26a39d73e2c.png)
 
 
-
 ---
+
 # 세부일정 (개인별)
+
 ---
 ### 김정진
 ---
@@ -167,9 +185,9 @@ DB 설계 - Like | 유저 - 좋아요 | | 0% |
 김정진 | 주제 선정 및 세부 계획 | 2021.12.10 | 80% |
 김정진 | 필요한 프론트엔트 지식 검색 및 db 설계 | 2021.12.11 | 50% |
 김정진 | 필요한 프론트엔트 지식 검색 및 db 설계 | 2021.12.12 | 80% |
-김정진 | 주제 | 2021.12.13 | 0% |
-김정진 | 주제 | 2021.12.14 | 0% |
-김정진 | 주제 | 2021.12.15 | 0% |
+김정진 | readme정리, db 수정 | 2021.12.13 | 0% |
+김정진 | readme정리, db 수정 | 2021.12.14 | 60% |
+김정진 | readme정리, db 수정 | 2021.12.15 | 100% |
 김정진 | 주제 | 2021.12.16 | 0% |
 김정진 | 주제 | 2021.12.17 | 0% |
 김정진 | 주제 | 2021.12.18 | 0% |
@@ -345,53 +363,64 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![슬라이드4](https://user-images.githubusercontent.com/30681841/145669631-ba579429-0e65-4412-96d4-13bbddd896cd.PNG)
 
 
+### 연결 테이블을 써야하는 이유 
+
+![image](https://user-images.githubusercontent.com/30681841/146315400-390302ca-e1de-4ec5-ba4f-949d2b879eb5.png)
+
+
+
 ## 전체
 
-![image](https://user-images.githubusercontent.com/30681841/146142713-1918f192-1ab7-41ff-9544-a72ea699e09c.png)
+![image](https://user-images.githubusercontent.com/30681841/146323359-4042ce5a-687a-4224-8d93-0c3f977b8f73.png)
 
 ### user 테이블 기준 
 
-![image](https://user-images.githubusercontent.com/30681841/146142742-5de685c5-469e-462d-820c-78821172098f.png)
+![image](https://user-images.githubusercontent.com/30681841/146323383-1d7f22b6-7fc4-425f-9903-a8ff4974dfd7.png)
 
 ### post 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142799-2ef230a6-ae9b-470c-b464-fb51d294e037.png)
+![image](https://user-images.githubusercontent.com/30681841/146323398-e4ccc946-cf61-430e-be1d-aa95b5c522b5.png)
 
 ### comment 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142818-dbf199f2-28b3-4334-9372-8a60b29a900e.png)
+![image](https://user-images.githubusercontent.com/30681841/146323431-b102d6df-82bd-48e6-8ea2-959e4199dac7.png)
 
 ### hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142830-f66492c1-c7bb-43cc-a20b-0c0d4a27bebf.png)
+![image](https://user-images.githubusercontent.com/30681841/146323460-0772e65e-cd7e-4800-881e-a2db94ad76a2.png)
 
 ### like 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142846-723e2d65-5619-411a-a139-a0a21f2c846c.png)
+![image](https://user-images.githubusercontent.com/30681841/146323480-f3262b09-d1b6-406f-a164-73de57c63acd.png)
 
 ### medias 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142881-0581b291-afbc-460e-a831-5e9d7cb3fb39.png)
+![image](https://user-images.githubusercontent.com/30681841/146323501-36a83e31-d154-48c1-8dc2-61b98567a048.png)
 
 ### post_media 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142908-c98108e9-a819-4f1f-8d48-624b0fa17ec9.png)
+![image](https://user-images.githubusercontent.com/30681841/146323518-df7a7215-ad44-4a61-9b0d-779b58b08eac.png)
 
 ### post_hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142935-ce03a82f-48c1-4431-83fe-07a28ded4a2c.png)
+![image](https://user-images.githubusercontent.com/30681841/146323536-34432dc4-981c-4c86-8417-b0ff4309c00d.png)
 
 ### comment_hashtag 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146142960-32191720-f8d0-4ed8-bbfc-861f367339a5.png)
+![image](https://user-images.githubusercontent.com/30681841/146323548-8ef8b3d8-1a0a-4c1a-8a38-84cad61b86b2.png)
 
 ### follow 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146143034-21c60349-c335-48de-a83b-aee8da217991.png)
+![image](https://user-images.githubusercontent.com/30681841/146323579-b9e30685-4a16-49d6-bb51-b9c2fc5423aa.png)
 
 ### tagged_user 테이블 기준
 
-![image](https://user-images.githubusercontent.com/30681841/146143114-eaf85228-5f77-4555-8062-0c5f2816be8e.png)
+![image](https://user-images.githubusercontent.com/30681841/146323602-2fb3088d-95db-49ff-898a-14112f839090.png)
+
+### tags 테이블 기준
+
+![image](https://user-images.githubusercontent.com/30681841/146323624-73f4d9ee-92ac-4c8a-b23c-b49e275702c4.png)
+
 
 
 # 프론트엔드 설계 
@@ -408,7 +437,6 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![image](https://user-images.githubusercontent.com/30681841/146121278-dcf7e680-75dd-4944-9077-da497f388060.png)
 ![image](https://user-images.githubusercontent.com/30681841/146121288-86f9eb26-d5c7-4093-a285-4c0d8e6048a8.png)
 ![image](https://user-images.githubusercontent.com/30681841/146121299-2b42e26a-d0bd-48da-b300-fd109e64edec.png)
-
 
 
 ---
@@ -533,10 +561,15 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 ![image](https://user-images.githubusercontent.com/30681841/145935060-696af7bd-9855-4321-ab23-5113f85e206a.png)  
 ![image](https://user-images.githubusercontent.com/30681841/145935075-8e39497f-321c-4b18-a77a-2372de1d48aa.png)
   
+---
 
 # DB 처리 vs File 처리 vs Session 처리 
 
-### 유저 간 주고 받는 쪽지 : File 처리 -> {$파일명}.txt 형태로 저장 
+---
+
+## 유저 간 주고 받는 쪽지 : File 처리 -> {$파일명}.txt 형태로 저장 
+
+---
 
 카카오톡 참고. 카카오톡 처럼 대화내용 내려받기는 제외하고 서버를 돌리는 local pc 에 저장되게끔 한다. (수업 시간에 했던 파일처리 부분 참고)
 
@@ -553,19 +586,51 @@ cos.jar (파일 업로드) 때문에 jdk1.8 선택했습니다.
 > [김태호] [오후 4:15] 김태호 () 입니다    
 
 
-### session 처리 할 정보 
+---
+
+## session 처리 할 정보 
 db나 file 처리가 된 정보들은 제외하고, 프로그램 실행 중에 서버에 저장해 둘 데이터 목록 :
 
 1. 로그인 한 유저 번호 (user_no)
 2. 로그인 한 유저 아이디 (user_id) 
 
+---
+
+## cookie 처리 할 정보 
+
+1. 유저가 검색한 키워드는 쿠키로 저장합니다. 검색창에 아무것도 없는 상태에서 마우스를 올리면 검색한 키워드, 해시태그 기록이 나옵니다. 
+
+
+![image](https://user-images.githubusercontent.com/30681841/146151401-17c6b767-7361-4965-a3ab-70f6a2bf0403.png)  
+
+
 # 코드 구현 정리 ( 자주 쓰이거나 중요한 코드 정리 ) 
 
+---
 
-
-
+[추후 업데이트 바람]
   
+---
+
 # 참고 사이트
+
+---
 
 [인스타그램 클론코딩 프론트 설계 관련](https://velog.io/@eunjin/Javascript-Project%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9)  
 [웹에서 다크모드 구현](https://marshall-ku.com/web/tips/%EC%9B%B9%EC%97%90%EC%84%9C-%EB%8B%A4%ED%81%AC-%EB%AA%A8%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)   
+[부트스트랩 참고 사이트](https://www.w3schools.com/bootstrap5/index.php)   
+[파이썬으로 구현한 인스타그램 클론코딩](https://chagokx2.tistory.com/73)   
+[mysql 에서 N : M 관계 구현하는 방법](https://siyoon210.tistory.com/26)   
+[db 참고1](https://velog.io/@seungsang00/Database-Instagram-%EC%8A%A4%ED%82%A4%EB%A7%88-%EB%94%94%EC%9E%90%EC%9D%B8)    
+[db 참고2](https://user-images.githubusercontent.com/30681841/145524529-29106608-7f89-47ab-adbd-45b40057c236.png)  
+[정규 표현식 개쩌는 사이트1](https://regexr.com/)   
+[정규 표현식 시각화해서 볼 수 있는 사이트1](https://regexper.com/#%3C%28%2F%29%3F%28%5Ba-zA-Z%5D*%29%28%5C%5Cs%5Ba-zA-Z%5D*%3D%5B%5E%3E%5D*%29%3F%28%5C%5CS%29*%28%2F%29%3F)   
+
+
+# 김정진 메모 
+
+## 해결해야하는 과제 
+
+1. 이미지 여러개 : 미리보기 처리 후, 컨트롤러에 어떻게 넘겨주고 ,db 처리는 어떻게 할거야?
+2. next 버튼 눌렀을 때, modal 창 확장하기 
+3. 

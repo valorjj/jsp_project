@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#imageContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.image {
+	display: block;
+	width: 100%;
+}
+
+.image-label {
+	position: relative;
+	bottom: 22px;
+	left: 5px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
