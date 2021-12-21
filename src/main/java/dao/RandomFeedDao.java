@@ -1,5 +1,7 @@
 package dao;
 
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 
 import dto.like;
@@ -15,23 +17,25 @@ public class RandomFeedDao extends DB {
 	public ArrayList<like> getrandomfeed() {
 		
 		ArrayList<like> likes = new ArrayList<like>();
-		String sql = "select count(*) from like group by post_no order by desc";
+		String sql = "select post_no, count(*) from plike group by post_no order by count(*) desc";
 		
 		try {
 			ps = con.prepareStatement(sql);
 			rs = ps.executeQuery();
 			while(rs.next()) {
-				like like = new like(rs.getInt(1), rs.getInt(2));
-				likes.add(like);
-				
-				for(int i = 0;  i < likes.size(); i++) {
-				sql = "select medias_no from post_media where post_no ="+rs.getInt(1);
-				ps = con.prepareStatement(sql);
-				rs = ps.executeQuery();
-				
-				
+				String sql2 = "select medias_no from post_media where post_no ="+rs.getInt(1);
+				PreparedStatement ps2 = con.prepareStatement(sql2);
+				ResultSet rs2 = ps2.executeQuery();
+				if(rs2.next()) {
+					String sql3 = "select content_url from medias where medias_no = "+rs2.getInt(1);
+					PreparedStatement ps3 = con.prepareStatement(sql3);
+					ResultSet rs3 = ps3.executeQuery();
+					
+					if(rs3.next()) {
+						like like = new like(rs.getString(3));
+						likes.add(like);
+					}
 				}
-				
 				
 			}
 				return likes;

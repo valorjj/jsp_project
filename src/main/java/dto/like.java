@@ -8,6 +8,7 @@ public class like {
 	private int comment_no;
 	private String like_date;
 	
+	private String content_url;
 	private int like_count;
 	
 	// ±øÅë
@@ -16,11 +17,10 @@ public class like {
 	}
 	
 	// ·£´ıÇÇµå
-	public like(int post_no, int like_count) {
-		this.post_no = post_no;
-		this.like_count = like_count;
+	public like(String content_url) {
+		this.content_url = content_url;
 	}
-
+	
 	// Ç®»ı¼º
 	public like(int like_no, int user_no, String user_id, int post_no, int comment_no, String like_date, int like_count) {
 		this.like_no = like_no;
@@ -30,6 +30,16 @@ public class like {
 		this.comment_no = comment_no;
 		this.like_date = like_date;
 		this.like_count = like_count;
+	}
+
+	
+
+	public String getContent_url() {
+		return content_url;
+	}
+
+	public void setContent_url(String content_url) {
+		this.content_url = content_url;
 	}
 
 	public int getLike_no() {
