@@ -11,15 +11,17 @@
 	<!-- 게시글을 등록하는 페이지입니다. -->
 	<%@ include file="../common/header.jsp"%>
 
+
 	<div class="container">
 		<h3 class="createPostTitle my-5" style="color: green;">게시글 등록</h3>
-		<form enctype="multipart/form-data" id="uploadForm" method="post">
+		<form enctype="multipart/form-data" id="uploadForm" method="post"
+			action="../../controller/post/createPostController.jsp">
 			<div class="row">
 				<div class="col-md-7">
 					<div class="input-group mb-3">
 						<div class="custom-file">
 							<input type="file" class="custom-file-input" id="uploadImage"
-								name="uploadImage" /> <label for="uploadImage"
+								name="uploadImage" multiple /> <label for="uploadImage"
 								class="custom-file-label">Choose file</label>
 						</div>
 						<!-- <div class="input-group-append">
@@ -69,9 +71,9 @@
 	<br />
 	<br />
 	<script type="text/javascript">
+		var imagePreview = document.getElementById('imageContainer');
 		function readImage(input){
 			if(input.files && input.files[0]){
-				console.log(input.files);
 				const reader = new FileReader();
 				reader.onload = (e) => {
 					const previewImage = document.getElementById('previewImage');
