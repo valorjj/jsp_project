@@ -36,12 +36,12 @@ public class UserDao extends DB {
 	}
 
 	// 2. 아이디 체크 메소드
-	public boolean idcheck(String useridcheck) {
+	public boolean idcheck(String userid) {
 
 		String sql = "select user_id from user where user_id = ?";
 		try {
 			ps = con.prepareStatement(sql);
-			ps.setString(1, useridcheck);
+			ps.setString(1, userid);
 			rs = ps.executeQuery();
 			if (rs.next()) {
 				return true;
@@ -72,6 +72,24 @@ public class UserDao extends DB {
 	// 4. 회원탈퇴 메소드
 
 	// 5. 회원정보 출력 메소드
+	public User getuser(String id) {
+
+		String sql = "select * from user where user_id =? ";
+		try {
+			ps = con.prepareStatement(sql);
+			ps.setString(1, id);
+			rs = ps.executeQuery();
+			if (rs.next()) {
+				// 동일한 아이디의 레코드를 비밀번호를 제외한 객체화
+				User user = new User(rs.getInt(1), rs.getString(2), null, rs.getString(4), rs.getString(5),
+						rs.getString(6), rs.getString(7), rs.getInt(8), rs.getString(9) ,rs.getString(10));
+				return user;
+			}
+		} catch (Exception e) {
+		}
+		return null;
+
+	}
 
 	// 6. 회원정보 수정 메소드
 

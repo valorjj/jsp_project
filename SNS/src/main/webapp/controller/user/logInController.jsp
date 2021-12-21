@@ -9,9 +9,8 @@ out.println("<script> alert('로그인 컨트롤러'); </script>");
 String id = request.getParameter("loginId");
 String password = request.getParameter("loginPassword");
 
-// 2. DB 처리 
+//2. DB 처리 
 boolean result = UserDao.getUserDao().loginCheck(id, password);
-
 if (result) { // 로그인 성공 시 
 	// 3. 세션 부여
 	// 3.1 로그인 id 이용해서 회원 no 찾기 

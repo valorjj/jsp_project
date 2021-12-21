@@ -16,7 +16,9 @@
 				<div id="signuppage" class="signup d-flex flex-column justify-content-center align-items-center border border-danger my-2">
 					<!-- 로고 가운데 -->
 					<div class="logo text-center my-2">
-						<a href=""> <img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"></a>
+						<a href="">
+							<img class="logo-img img-fluid" style="width: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
+						</a>
 					</div>
 					<!-- 가입 관련 텍스트 -->
 					<div class="text-center">
@@ -68,9 +70,12 @@
 						<div>
 							<span id="sexresult" class="text-center"></span>
 						</div>
-						<button class="btn-primary col-12 pt-2 form-control" type="submit" style="cursor: pointer;">가입</button>
+						<button id="signupbtn" class="btn-primary col-12 pt-2 form-control" type="submit" style="cursor: pointer;">가입</button>
 						<div class="loginbox bg-info my-3 pt-2 text-center">
-							계정이 있으신가요?<a href="loginPage.jsp"><span class="text-white ml-1">로그인</span></a>
+							계정이 있으신가요?
+							<a href="loginPage.jsp">
+								<span class="text-white ml-1">로그인</span>
+							</a>
 						</div>
 					</form>
 				</div>
@@ -85,5 +90,6 @@
 	<!-- 다음 주소 api js 호출 -->
 	<script src="../../../js/user/signUpApi.js" type="text/javascript"></script>
 	<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
 </body>
 </html>

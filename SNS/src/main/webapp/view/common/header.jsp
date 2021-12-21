@@ -7,14 +7,14 @@
 <link href="/sns/css/post/post.css" rel="stylesheet">
 </head>
 <body>
-	<%
+<%-- 	<%
 	// 1. 로그인 정보를 세션에서 불러온다. 
 	LogInData logInData = (LogInData) session.getAttribute("logIn");
 	// 1.1 로그인 된 유저 id
 	String user_id = logInData.getUser_id();
 	// 1.2 로그인 된 유저 no
 	int user_no = logInData.getUser_no();
-	%>
+	%> --%>
 	<!-- 스크립트/css/부트스트랩 호출 -->
 	<%@include file="common.jsp"%>
 	<!-- 헤더 컨테이너 시작 -->
@@ -47,8 +47,8 @@
 						  	</svg>
 						</a></li>
 					<li class="news mx-1 align-self-center"><a href="../main/randomFeedPage.jsp" class=" far fa-compass" style="color: black !important;"></a></li>
-					<li class=" dropdownmenu notice mx-1 align-self-center"><a href="" class="dropdownmenubtn far fa-heart " style="color: black !important; position: relative;"></a> <!-- 토글 숨김창 --></li>
-					<li class="myinfo mx-1 align-self-center"><a href="" class="far fa-user" style="color: black !important;"></a></li>
+					<li class="dropdownmenu notice mx-1 align-self-center"><a href="" class="dropdownmenubtn far fa-heart " style="color: black !important; position: relative;"></a> <!-- 토글 숨김창 --></li>
+					<li class="infodropdownmenu myinfo mx-1 align-self-center"><a href="" class="far fa-user" style="color: black !important;"></a></li>
 					<span>
 						<a href="../../view/user/loginPage.jsp" style="font-size: 5px;">
 							logout<br>(임시)
@@ -57,8 +57,8 @@
 				</ul>
 			</div>
 		</div>
-		<!-- 드롭다운 -->
-		<div class="col-12 dropdownmenuitem" style="width: 100%; height: auto; position: relative;">
+		<!-- 알림 드롭다운1-->
+		<div class="col-12 infodropdownmenuitem" style="width: 100%; height: auto; position: relative; display: none;">
 			<ul class="col-6 rounded" style="width: 500px; position: absolute; top: 0; right: 1.5%; z-index: 1; background: rgba(158, 158, 158, 0.7);">
 				<li><a href="#">
 						<p class="border-bottom">이번주</p>
@@ -138,13 +138,55 @@
 			</ul>
 		</div>
 		<!-- 토글 숨김창 종료 -->
+		<!-- 마이정보 드롭다운 -->
+		<div class="col-12 infodropdownmenuitem" style="width: 100%; height: auto; position: relative;">
+			<div class="col-4 rounded" style="width: 15rem; position: absolute; top: 0; right: 1.5%; z-index: 1; background: rgba(158, 158, 158, 0.7);">
+				<div class="info_profile">
+					<a href="">
+						<svg aria-label="프로필" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 24 24" width="16">
+						<circle cx="12.004" cy="12.004" fill="none" r="10.5" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></circle>
+						<path d="M18.793 20.014a6.08 6.08 0 00-1.778-2.447 3.991 3.991 0 00-2.386-.791H9.38a3.994 3.994 0 00-2.386.791 6.09 6.09 0 00-1.779 2.447" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></path>
+						<circle cx="12.006" cy="9.718" fill="none" r="4.109" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></circle></svg>
+					</a>
+					프로필
+				</div>
+				<div class="info_cart">
+					<a href="">
+						<svg aria-label="저장됨" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 24 24" width="16">
+							<polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon></svg>
+					</a>
+					저장됨
+				</div>
+				<div class="info_setting">
+					<a href="">
+						<svg aria-label="설정" class="_8-yf5 " color="#262626" fill="#262626" height="16" role="img" viewBox="0 0 24 24" width="16">
+							<circle cx="12" cy="12" fill="none" r="8.635" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+							<path d="M14.232 3.656a1.269 1.269 0 01-.796-.66L12.93 2h-1.86l-.505.996a1.269 1.269 0 01-.796.66m-.001 16.688a1.269 1.269 0 01.796.66l.505.996h1.862l.505-.996a1.269 1.269 0 01.796-.66M3.656 9.768a1.269 1.269 0 01-.66.796L2 11.07v1.862l.996.505a1.269 1.269 0 01.66.796m16.688-.001a1.269 1.269 0 01.66-.796L22 12.93v-1.86l-.996-.505a1.269 1.269 0 01-.66-.796M7.678 4.522a1.269 1.269 0 01-1.03.096l-1.06-.348L4.27 5.587l.348 1.062a1.269 1.269 0 01-.096 1.03m11.8 11.799a1.269 1.269 0 011.03-.096l1.06.348 1.318-1.317-.348-1.062a1.269 1.269 0 01.096-1.03m-14.956.001a1.269 1.269 0 01.096 1.03l-.348 1.06 1.317 1.318 1.062-.348a1.269 1.269 0 011.03.096m11.799-11.8a1.269 1.269 0 01-.096-1.03l.348-1.06-1.317-1.318-1.062.348a1.269 1.269 0 01-1.03-.096" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg>
+					</a>
+					설정
+				</div>
+				<div class="info_logout">
+					<a href="">
+						<img src="" alt="" />
+					</a>
+					로그아웃
+				</div>
+			</div>
+		</div>
+		<!-- 토글 숨김창 종료 -->
 	</div>
 	<!-- 헤더 컨테이너 종료 -->
 	<!-- 알림 슬라이드 토글 -->
 	<script type="text/javascript">
 		$(".dropdownmenu").on("click", function(e) {
 			e.preventDefault();
-			$(".dropdownmenuitem").slideToggle("fast");
+			$(".dropdownmenuitem").slideToggle("slow");
+		});
+	</script>
+	<script type="text/javascript">
+		$(".infodropdownmenu").on("click", function(e) {
+			e.preventDefault();
+			$(".infodropdownmenuitem").slideToggle("fast");
 		});
 	</script>
 </body>

@@ -1,3 +1,5 @@
+<%@page import="dto.LogInData"%>
+<%@page import="dto.User"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,6 +12,23 @@
 	<%@include file="../common/common.jsp"%>
 	<!-- 헤더 고정 -->
 	<%@include file="../common/header.jsp"%>
+	<%
+	// 1. 로그인 정보를 세션에서 불러온다. 
+	LogInData loInData = (LogInData) session.getAttribute("logIn");
+	String loginuserid = null;
+
+	// 세션이 있을경우
+	if (loInData != null) {
+		loginuserid = loInData.getUser_id();
+	}
+
+	User userData = (User) session.getAttribute("getuser");
+	String user_name = null;
+	// 세션이 있을경우
+	if (userData != null) {
+		user_name = userData.getUser_name();
+	}
+	%>
 	<!-- 메인시작 -->
 	<div class="wrap">
 		<div class="container">
@@ -116,20 +135,28 @@
 										<div class="d-flex justify-content-center align-items-center">
 											<div class="d-flex" style="width: 15%">
 												<div class="like likeicon align-self-center" style="width: 33%">
-													<a href=""><img src="../../img/main-contents/heart.png" alt="" style="transform: scale(0.5)" /></a>
+													<a href="">
+														<img src="../../img/main-contents/heart.png" alt="" style="transform: scale(0.5)" />
+													</a>
 												</div>
 												<div class="reply align-self-center" style="width: 33%">
-													<a href=""><img src="../../img/main-contents/chat.png" alt="" style="transform: scale(0.6)" /></a>
+													<a href="">
+														<img src="../../img/main-contents/chat.png" alt="" style="transform: scale(0.6)" />
+													</a>
 												</div>
 												<div class="shere align-self-center " style="width: 33%">
-													<a href=""><img src="../../img/main-contents/shere.png" alt="" style="transform: scale(0.5)" /></a>
+													<a href="">
+														<img src="../../img/main-contents/shere.png" alt="" style="transform: scale(0.5)" />
+													</a>
 												</div>
 											</div>
 											<div class="align-self-center " style="width: 70%">
 												<div class="slidedots text-center">슬라이드 닷</div>
 											</div>
 											<div class="cart text-right mr-2" style="width: 15%">
-												<a href=""><img src="../../img/main-contents/cart.png" alt="" style="transform: scale(0.5)" /></a>
+												<a href="">
+													<img src="../../img/main-contents/cart.png" alt="" style="transform: scale(0.5)" />
+												</a>
 											</div>
 										</div>
 										<div class="contentbot p-2">
@@ -146,7 +173,10 @@
 												</span>
 											</div>
 											<div class="">
-												<a href="" class="text-dark"><span>댓글 ㅇㅇ개</span> <span class="ml-2">모두 보기</span></a>
+												<a href="" class="text-dark">
+													<span>댓글 ㅇㅇ개</span>
+													<span class="ml-2">모두 보기</span>
+												</a>
 											</div>
 											<div class="" style="font-size: 12px;">date기록</div>
 											<div class="d-flex justify-content-arround align-items-center border" style="width: 100%; height: 30px;">
@@ -174,16 +204,20 @@
 					<!-- 마이박스 -->
 					<div class="mybox d-flex justify-content-arround align-items-center bg-danger" style="width: 100%; height: 5rem;">
 						<div class="myboximg ml-2" style="width: 25%">
-							<a href=""><img src="" alt="" class="" />동그란이미지</a>
+							<a href="">
+								<img src="" alt="" class="" />
+								동그란이미지
+							</a>
 						</div>
 						<div class="myboxtext border d-flex flex-column justify-content-center" style="width: 25%; height: 100%;">
 							<div class="">
-								아이디 :
-								<span></span>
+								<!-- 아이디 : -->
+								<span><%=loginuserid%>님
+								</span>
 							</div>
 							<div class="">
-								이름 :
-								<span></span>
+								<!-- 이름 : -->
+								<span><%=user_name%></span>
 							</div>
 						</div>
 						<div class="change mr-2" style="text-align: right; width: 50%">

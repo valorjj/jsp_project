@@ -106,8 +106,7 @@ div[class~="border"] {
 	padding: 10px;
 }
 
-.dropdownmenuitem {
-	display: none;
+.dropdownmenuitem, .infodropdownmenuitem{
 	/* visibility: hidden; */
 	z-index: 999;
 }

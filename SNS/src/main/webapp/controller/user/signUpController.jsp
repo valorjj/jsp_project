@@ -27,6 +27,7 @@
 	// 4. DB처리
 	boolean result = UserDao.getUserDao().usersignup(user);
 	if (result) { // 회원가입 성공
+		out.print("<script>alert('회원가입 성공');</script>");
 		response.sendRedirect("../../view/user/loginPage.jsp");
 	} else { // 회원가입 실패
 		response.sendRedirect("../../view/user/signUpPage.jsp");

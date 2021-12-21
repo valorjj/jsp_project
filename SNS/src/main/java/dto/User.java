@@ -12,6 +12,7 @@ public class User {
 	private String user_gender;
 	private int user_age;
 	private String user_date;
+	private String user_profile;
 
 	// 2. 빈생성자
 	public User() {
@@ -20,7 +21,7 @@ public class User {
 
 	// 3. 자동 전체 생성자
 	public User(int user_no, String user_id, String user_password, String user_email, String user_phone,
-			String user_name, String user_gender, int user_age, String user_date) {
+			String user_name, String user_gender, int user_age, String user_date, String user_profile) {
 		super();
 		this.user_no = user_no;
 		this.user_id = user_id;
@@ -31,7 +32,10 @@ public class User {
 		this.user_gender = user_gender;
 		this.user_age = user_age;
 		this.user_date = user_date;
+		this.user_profile = user_profile;
+		
 	}
+
 
 	// 3-2. 회원가입용 생성자
 	public User(String user_id, String user_password, String user_email, String user_phone, String user_name,
@@ -118,5 +122,14 @@ public class User {
 	public void setUser_date(String user_date) {
 		this.user_date = user_date;
 	}
+
+	public String getUser_profile() {
+		return user_profile;
+	}
+
+	public void setUser_profile(String user_profile) {
+		this.user_profile = user_profile;
+	}
+	
 
 }
