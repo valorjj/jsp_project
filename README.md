@@ -33,20 +33,24 @@ String sql = " .... where p_no = ? order by count(*)
 
 # 2021-12-21 랜덤피드
 
-	변경점
-	
-	1. 우리 DB설계에 좋아요 테이블명을 like로 정했는데 선생님께서 like는 sql문에서는 가능해도 java에서 읽지 못한다고 알려주셔서 plike로 수정
 설계 
-	1. 랜덤 피드에는 좋아요 수가 높은 게시물의 사진 출력한다. 
-	2. 팔로우가 아니어도 출력된다
-	3. 처음에 6개가 출력된 후 스크롤이 아래에 닿으면 6개가 더 출력된다.
+1. 랜덤 피드에는 좋아요 수가 높은 게시물의 사진 출력한다. 
+2. 팔로우가 아니어도 출력된다
+3. 처음에 6개가 출력된 후 스크롤이 아래에 닿으면 6개가 더 출력된다.
 	
 sql 
-	1. plike 테이블에서 좋아요 수가 높은 순으로 post_no를 가져온다.
+1. plike 테이블에서 좋아요 수가 높은 순으로 post_no를 가져온다.
 		
-	2. 가져온 post_no를 조건으로 post_media 테이블에서 medias_no를 가져온다.
+2. 가져온 post_no를 조건으로 post_media 테이블에서 medias_no를 가져온다.
 	
-	3. 가져온 medias_no를 조건으로 medias 테이블에서 content_url을 가져온다.
+3. 가져온 medias_no를 조건으로 medias 테이블에서 content_url을 가져온다.
 	
-	![sql](https://user-images.githubusercontent.com/88937233/146893395-67935211-25cf-4154-b204-11952485ab6f.png)
+![sql](https://user-images.githubusercontent.com/88937233/146893395-67935211-25cf-4154-b204-11952485ab6f.png)
+현재까지 작성한 sql문 
+	
+문제점 
+post_medias 테이블은 컬럼이 모두 fk라 생성이 임의적으로 생성이 불가하여 테스트가 불가하다.
+
+변경점
+1. 우리 DB설계에 좋아요 테이블명을 like로 정했는데 선생님께서 like는 sql문에서는 가능해도 java에서 읽지 못한다고 알려주셔서 plike로 수정
 	
